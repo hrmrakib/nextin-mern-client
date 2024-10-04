@@ -3,14 +3,11 @@ import Card from "./Card";
 import { useQuery } from "@tanstack/react-query";
 import { axiosPublic } from "../../hooks/useAxiosPublic";
 import RoatingLine from "../loading/RoatingLine";
-import { useSelector } from "react-redux";
 import { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 import queryString from "query-string";
 
 const Cards = () => {
-  const filterLabel = useSelector((state: any) => state.categories.filterValue);
-  const version = useSelector((state: any) => state.categories.version);
   const location = useLocation();
   const [serachQuery, setSearchQuery] = useState();
 
@@ -35,8 +32,6 @@ const Cards = () => {
     setSearchQuery(parsedString.category);
     console.log(serachQuery);
   }, [location.search]);
-
-  // console.log(filterLabel, version);
 
   if (isPending) return <RoatingLine />;
 
