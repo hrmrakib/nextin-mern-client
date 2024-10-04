@@ -1,0 +1,1507 @@
+[
+  {
+    "host": "Michael Brown",
+    "position": 1,
+    "name": "Einzelzimmer am Kudamm",
+    "category": "Countryside",
+    "bathrooms": 1,
+    "bedrooms": 1,
+    "beds": 1,
+    "city": "Berlin",
+    "images": [
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1034594067790242581/original/8d2e70b1-2ad4-46de-be5f-bca7263bf63e.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1034594067790242581/original/0b16481d-3b7f-4452-a1c1-753db1380c71.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1034594067790242581/original/3361a650-f7a4-47b3-80b2-000a5b4e5ede.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1034594067790242581/original/9098af00-ec02-4a40-85b8-aee9a024578a.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1034594067790242581/original/7488108c-90c6-4d05-a073-b610510395f3.jpeg?im_w=720"
+    ],
+    "hostThumbnail": "https://a0.muscache.com/im/pictures/user/7610ee97-6805-484f-ab0f-cfa8e4b6f677.jpg?aki_policy=profile_x_medium",
+    "isSuperhost": false,
+    "rareFind": false,
+    "lat": 52.503186379494714,
+    "lng": 13.33325427471215,
+    "persons": 1,
+    "reviewsCount": 36,
+    "rating": 4.61,
+    "type": "Room",
+    "userId": 230386042,
+    "address": "Berlin, Berlin, Germany",
+    "price": {
+      "rate": 54,
+      "currency": "USD",
+      "total": 54,
+      "priceItems": [{ "title": "$54 x 1 night", "amount": 54 }]
+    }
+  },
+  {
+    "host": "Sarah Davis",
+    "position": 2,
+    "name": "Urban Bath (LINDEMANN'S)",
+    "category": "OMG!",
+    "bathrooms": 1,
+    "bedrooms": 1,
+    "beds": 1,
+    "city": "Berlin",
+    "images": [
+      "https://a0.muscache.com/im/pictures/2c9a61c2-6651-4644-aa62-f72d62d786c5.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/a228fa70-6792-461e-bd5d-c5fc9253ce3a.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/a2caf081-e15c-4302-8bcf-4c4a0be0b204.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/eaa75d1c-aa94-4f44-8213-847cce8f370d.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/734c9f93-c71b-4ac9-9aa7-bad9ca47edc3.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/91baef2e-a83c-4814-be95-b6e36627d4b8.jpg?im_w=720"
+    ],
+    "hostThumbnail": "https://a0.muscache.com/im/pictures/user/e74b6065-20ed-4b5a-b1d8-d884808579bb.jpg?aki_policy=profile_x_medium",
+    "isSuperhost": true,
+    "rareFind": false,
+    "lat": 52.49379,
+    "lng": 13.36134,
+    "persons": 2,
+    "reviewsCount": 178,
+    "rating": 4.8,
+    "type": "Room",
+    "userId": 215178674,
+    "address": "Berlin, Berlin, Germany",
+    "price": {
+      "rate": 118,
+      "currency": "USD",
+      "total": 118,
+      "priceItems": [{ "title": "$118 x 1 night", "amount": 118 }]
+    }
+  },
+  {
+    "host": "David Wilson",
+    "position": 3,
+    "name": "Double Hotel Gat Point Charlie Berlin",
+    "category": "Amazing views",
+    "bathrooms": 1,
+    "bedrooms": 1,
+    "beds": 1,
+    "city": "Berlin",
+    "images": [
+      "https://a0.muscache.com/im/pictures/e6a01d16-9783-4e95-81ed-3a441770177d.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/65125171-e888-4700-bf34-0bc8dfada9d3.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/c9bef0a8-42db-4bc9-8cab-e141b320d9ec.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/bf76887d-6bb0-425f-98e2-2540293de034.jpg?im_w=720"
+    ],
+    "hostThumbnail": "https://a0.muscache.com/im/pictures/user/c1be812f-94ef-472a-bda9-d9f4b023d7be.jpg?aki_policy=profile_x_medium",
+    "isSuperhost": false,
+    "rareFind": false,
+    "lat": 52.50893,
+    "lng": 13.38818,
+    "persons": 2,
+    "reviewsCount": 1108,
+    "rating": 4.57,
+    "type": "Room",
+    "userId": 381323865,
+    "address": "Berlin, Berlin, Germany",
+    "price": {
+      "rate": 77,
+      "currency": "USD",
+      "total": 77,
+      "priceItems": [{ "title": "$77 x 1 night", "amount": 77 }]
+    }
+  },
+  {
+    "host": "Laura Martinez",
+    "position": 4,
+    "name": "Double room in the city center of Berlin",
+    "category": "Top cities",
+    "bathrooms": 1,
+    "bedrooms": 1,
+    "beds": 1,
+    "city": "Berlin",
+    "images": [
+      "https://a0.muscache.com/im/pictures/miso/Hosting-927549849154913970/original/89412b7e-62ea-43dd-947c-1f85d9493020.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-927549849154913970/original/f12fb1f5-6dea-4496-a57c-6fefbc826e59.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-927549849154913970/original/bf1c702a-5834-41f5-b153-8fc27f2166b7.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-927549849154913970/original/1db899f2-dcbb-44eb-a92e-8a2865dfc048.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-927549849154913970/original/26ac6bc7-b98a-411d-b367-4872c548bd40.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-927549849154913970/original/ea636e6c-1b59-480a-a3b1-fad6b87cc927.jpeg?im_w=720"
+    ],
+    "hostThumbnail": "https://a0.muscache.com/im/pictures/user/1f657109-a682-4a16-ae19-dc6a489cd013.jpg?aki_policy=profile_x_medium",
+    "isSuperhost": false,
+    "rareFind": false,
+    "lat": 52.496513,
+    "lng": 13.3478551,
+    "persons": 2,
+    "reviewsCount": 253,
+    "rating": 4.53,
+    "type": "Room",
+    "userId": 435186074,
+    "address": "Berlin, Berlin, Germany",
+    "price": {
+      "rate": 65,
+      "currency": "USD",
+      "total": 65,
+      "priceItems": [{ "title": "$65 x 1 night", "amount": 65 }]
+    }
+  },
+  {
+    "host": "James Taylor",
+    "position": 5,
+    "name": "Typisch Berlin",
+    "category": "Golfing",
+    "bathrooms": 1,
+    "bedrooms": 1,
+    "beds": 1,
+    "city": "Berlin",
+    "images": [
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1067457802464449449/original/31c9840a-0c1b-47db-8316-35219f26b682.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1067457802464449449/original/fdab28b4-347b-4c9c-a656-e6a4de1fdafd.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1067457802464449449/original/2223cf21-9bfd-4077-ba69-bf69ffa60314.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1067457802464449449/original/7dfd2a6e-04eb-4554-ac38-6178953e68fc.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1067457802464449449/original/144b507f-054e-4b29-855c-ef071d3741f7.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1067457802464449449/original/94a6c74f-2098-41e9-af1a-2fae1d37d5e1.jpeg?im_w=720"
+    ],
+    "hostThumbnail": "https://a0.muscache.com/im/pictures/user/User-52948391/original/dd31a327-85fa-49a3-b726-6d35d2e4f477.jpeg?aki_policy=profile_x_medium",
+    "isSuperhost": true,
+    "rareFind": false,
+    "lat": 52.48398,
+    "lng": 13.35386,
+    "persons": 2,
+    "reviewsCount": 56,
+    "rating": 4.95,
+    "type": "Home",
+    "userId": 52948391,
+    "address": "Berlin, Berlin, Germany",
+    "price": {
+      "rate": 100,
+      "currency": "USD",
+      "total": 100,
+      "priceItems": [
+        { "title": "$49 x 1 night", "amount": 49 },
+        { "title": "Cleaning fee", "amount": 36 },
+        { "title": "Airbnb service fee", "amount": 15 }
+      ]
+    }
+  },
+  {
+    "host": "Olivia Anderson",
+    "position": 6,
+    "name": "Suite Home Zwei-Schlafzimmer Apartment",
+    "category": "Rooms",
+    "bathrooms": 2,
+    "bedrooms": 2,
+    "beds": 3,
+    "city": "Berlin",
+    "images": [
+      "https://a0.muscache.com/im/pictures/miso/Hosting-44223601/original/69338594-ce9b-4131-80bf-fd6df0a9b5b0.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-44223601/original/c7e7c59c-d9ef-4525-9a86-2a8dcd83df83.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-44223601/original/029d27dc-5ed2-4491-98eb-d0bb8c1a7e2f.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-44223601/original/70475c1c-2413-4783-b6a2-f5b398c8216e.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-44223601/original/879eb7a2-dbd4-4476-b716-c46610ec920d.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-44223601/original/dd1bcc5c-0bf2-4b4e-9b32-a07826457258.jpeg?im_w=720"
+    ],
+    "hostThumbnail": "https://a0.muscache.com/im/pictures/user/f15e6954-c9c9-40c1-b6bc-0f21d30a7e8c.jpg?aki_policy=profile_x_medium",
+    "isSuperhost": true,
+    "rareFind": false,
+    "lat": 52.49915,
+    "lng": 13.33466,
+    "persons": 3,
+    "reviewsCount": 601,
+    "rating": 4.81,
+    "type": "Home",
+    "userId": 354783560,
+    "address": "Berlin, Berlin, Germany",
+    "price": {
+      "rate": 198,
+      "currency": "USD",
+      "total": 198,
+      "priceItems": [
+        { "title": "$247 x 1 night", "amount": 247 },
+        { "title": "Early bird discount", "amount": 49 }
+      ]
+    }
+  },
+  {
+    "host": "Robert Moore",
+    "position": 7,
+    "name": "bright room in artistic flat",
+    "category": "Bed & breakfasts",
+    "bathrooms": 1,
+    "bedrooms": 1,
+    "beds": 1,
+    "city": "Berlin",
+    "images": [
+      "https://a0.muscache.com/im/pictures/miso/Hosting-48987728/original/cfed30d1-4580-4ff5-9c25-997e915323d4.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/airflow/Hosting-833080845940201182/original/832199fe-5c7c-433d-bc83-664a195d974f.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/airflow/Hosting-833080845940201182/original/dc1cfbd2-cea2-4490-b3f9-73dcb6fe49f1.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/airflow/Hosting-833080845940201182/original/0f51af0e-7cf7-4f54-9e1c-3a57025d8411.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/airflow/Hosting-833080845940201182/original/27f0b995-f1d7-4357-8436-3d8d25625e53.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/airflow/Hosting-833080845940201182/original/1e2cf0f7-bdac-4562-a203-078c0cfc70d6.jpg?im_w=720"
+    ],
+    "hostThumbnail": "https://a0.muscache.com/im/pictures/user/ed425346-cee1-4826-b2ec-97b4da56b825.jpg?aki_policy=profile_x_medium",
+    "isSuperhost": true,
+    "rareFind": false,
+    "lat": 52.49134,
+    "lng": 13.33362,
+    "persons": 1,
+    "reviewsCount": 54,
+    "rating": 4.87,
+    "type": "Home",
+    "userId": 368264,
+    "address": "Berlin, Berlin, Germany",
+    "price": {
+      "rate": 85,
+      "currency": "USD",
+      "total": 85,
+      "priceItems": [
+        { "title": "$61 x 1 night", "amount": 61 },
+        { "title": "Cleaning fee", "amount": 11 },
+        { "title": "Airbnb service fee", "amount": 13 }
+      ]
+    }
+  },
+  {
+    "host": "Sophia Thompson",
+    "position": 8,
+    "name": "Great coffee & famously amazing bed",
+    "category": "Top of the world",
+    "bathrooms": 1,
+    "bedrooms": 1,
+    "city": "Berlin",
+    "images": [
+      "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1120133598974304854/original/28593894-769a-4776-993d-cef7e4fbb07c.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1120133598974304854/original/107040a3-a4da-4fea-9788-fb2df7b358b7.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1120133598974304854/original/ce883a37-d70a-4210-8f17-b1e376553424.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1120133598974304854/original/071fa4be-db9c-4b0b-87f1-660c43b6f3c6.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1120133598974304854/original/0d3ab540-6d15-40d1-9321-77203dbe8c18.jpeg?im_w=720"
+    ],
+    "hostThumbnail": "https://a0.muscache.com/im/pictures/user/User-568852511/original/68f5a467-6ad3-437b-89e2-f6060b38d36a.jpeg?aki_policy=profile_x_medium",
+    "isSuperhost": false,
+    "rareFind": false,
+    "lat": 52.4968697,
+    "lng": 13.3216371,
+    "persons": 2,
+    "reviewsCount": 99,
+    "rating": 4.65,
+    "type": "Room",
+    "userId": 568852511,
+    "address": "Berlin, Berlin, Germany",
+    "price": {
+      "rate": 80,
+      "currency": "USD",
+      "total": 80,
+      "priceItems": [
+        { "title": "$75 x 1 night", "amount": 75 },
+        { "title": "Taxes and fees", "amount": 5 }
+      ]
+    }
+  },
+  {
+    "host": "William Garcia",
+
+    "position": 9,
+    "name": "Penthouse in the heart of Berlin",
+    "category": "Arctic",
+    "bathrooms": 1,
+    "bedrooms": 2,
+    "beds": 4,
+    "city": "Berlin",
+    "images": [
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-1111567132715131033/original/f3d44ccd-ee06-43de-a012-c7547d0109be.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-1111567132715131033/original/b1b397f6-53ca-4636-97c3-95bf845e3a81.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-1111567132715131033/original/92f3bd2f-968e-4b9c-ab84-c347d4bbac98.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTExMTU2NzEzMjcxNTEzMTAzMw%3D%3D/original/f13854b9-8b1c-4405-91c1-61f312411dbc.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTExMTU2NzEzMjcxNTEzMTAzMw%3D%3D/original/297e82f8-4640-449b-bff9-edd076a3b440.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTExMTU2NzEzMjcxNTEzMTAzMw%3D%3D/original/d8952c26-1bab-4708-8769-c10850d1622b.jpeg?im_w=720"
+    ],
+    "hostThumbnail": "https://a0.muscache.com/im/pictures/user/User-9852586/original/dd84cc41-55d5-4647-bdf8-e14bb70cd4c3.jpeg?aki_policy=profile_x_medium",
+    "isSuperhost": true,
+    "rareFind": false,
+    "lat": 52.4847759,
+    "lng": 13.3542221,
+    "persons": 4,
+    "reviewsCount": 40,
+    "rating": 4.95,
+    "type": "Room",
+    "userId": 9852586,
+    "address": "Berlin, Berlin, Germany",
+    "price": {
+      "rate": 264,
+      "currency": "USD",
+      "total": 264,
+      "priceItems": [{ "title": "$264 x 1 night", "amount": 264 }]
+    }
+  },
+  {
+    "host": "Chloe Martin",
+
+    "position": 10,
+    "name": "Lovely 3-rooms apartment near Ku'Damm",
+    "category": "Islands",
+    "bathrooms": 1.5,
+    "bedrooms": 2,
+    "beds": 2,
+    "city": "Berlin",
+    "images": [
+      "https://a0.muscache.com/im/pictures/miso/Hosting-675361851173038813/original/f97a05f7-a7f3-4043-8326-78ab2cf0e68c.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-675361851173038813/original/d4273132-944f-4dd4-bb57-1f47fd4f763b.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-675361851173038813/original/7868c443-a994-49b4-806b-77688b1430f2.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-675361851173038813/original/5bba0cba-6890-48a5-b562-7f07e23656c3.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-675361851173038813/original/92f22b1a-df89-4873-bf81-3790bfa79cec.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-675361851173038813/original/c654df7d-10e1-44cf-be56-f00118f41af5.jpeg?im_w=720"
+    ],
+    "hostThumbnail": "https://a0.muscache.com/im/pictures/user/35185395-4c1e-40e9-9b4a-68367c55cb96.jpg?aki_policy=profile_x_medium",
+    "isSuperhost": false,
+    "rareFind": false,
+    "lat": 52.50314239999999,
+    "lng": 13.3111203,
+    "persons": 3,
+    "reviewsCount": 100,
+    "rating": 4.62,
+    "type": "Room",
+    "userId": 230224759,
+    "address": "Berlin, Berlin, Germany",
+    "price": {
+      "rate": 117,
+      "currency": "USD",
+      "total": 117,
+      "priceItems": [
+        { "title": "$99 x 1 night", "amount": 99 },
+        { "title": "Airbnb service fee", "amount": 18 }
+      ]
+    }
+  },
+  {
+    "host": "Alexander Lee",
+
+    "position": 11,
+    "name": "Roof terrace at the Wintergarten – 86 m²",
+    "category": "Beachfont",
+    "bathrooms": 1,
+    "bedrooms": 2,
+    "beds": 2,
+    "city": "Berlin",
+    "images": [
+      "https://a0.muscache.com/im/pictures/miso/Hosting-935188267169193699/original/3f3bbc39-ded2-41b8-a38f-1c1755428b40.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-935188267169193699/original/5b41c786-9688-49f8-badc-993e076a4138.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-935188267169193699/original/65e22810-f9c5-403e-b207-83f4b1c83f3d.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-935188267169193699/original/2ed2936c-9146-4d58-b741-4f7a3dde85f6.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-935188267169193699/original/5d9d3647-e622-4d7e-8c02-6e64107fe080.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-935188267169193699/original/8234817e-be61-4383-bfba-6086011a5c1b.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-935188267169193699/original/af485a39-0230-4b00-a2c6-dd814a98db49.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-935188267169193699/original/9f6143db-c20b-4a2a-9a3d-ce6c976f4eaf.jpeg?im_w=720"
+    ],
+    "hostThumbnail": "https://a0.muscache.com/im/users/2654722/profile_pic/1369927155/original.jpg?aki_policy=profile_x_medium",
+    "isSuperhost": true,
+    "rareFind": false,
+    "lat": 52.50081,
+    "lng": 13.36509,
+    "persons": 4,
+    "reviewsCount": 52,
+    "rating": 4.94,
+    "type": "Room",
+    "userId": 2654722,
+    "address": "Berlin, Berlin, Germany",
+    "price": {
+      "rate": 267,
+      "currency": "USD",
+      "total": 267,
+      "priceItems": [
+        { "title": "$297 x 1 night", "amount": 297 },
+        { "title": "Early bird discount", "amount": 30 }
+      ]
+    }
+  },
+  {
+    "host": "Isabella Harris",
+    "position": 12,
+    "name": "Stylish room in Schöneberg",
+    "category": "Grand pianos",
+    "bathrooms": 1,
+    "bedrooms": 1,
+    "beds": 1,
+    "city": "Berlin",
+    "images": [
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1028964485008042189/original/89d18370-3d24-485b-bb9d-4c741baf5e8c.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-1028964485008042189/original/cc40bfc1-b5bb-42f1-ad54-0e33b831f933.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-1028964485008042189/original/4cc40023-7611-4f3d-affe-92709bf79175.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-1028964485008042189/original/8d384ce0-7c5a-4b9c-8111-1442844d2428.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1028964485008042189/original/d6a9a2ee-5485-4bf5-af68-5515d9b2af41.jpeg?im_w=720"
+    ],
+    "hostThumbnail": "https://a0.muscache.com/im/pictures/user/User-547224886/original/0e34f3f1-38c4-4d99-9b33-2d35812ad6e8.jpeg?aki_policy=profile_x_medium",
+    "isSuperhost": true,
+    "rareFind": false,
+    "lat": 52.48947,
+    "lng": 13.36167,
+    "persons": 1,
+    "reviewsCount": 83,
+    "rating": 4.83,
+    "type": "Home",
+    "userId": 547224886,
+    "address": "Berlin, Berlin, Germany",
+    "price": {
+      "rate": 78,
+      "currency": "USD",
+      "total": 78,
+      "priceItems": [
+        { "title": "$72 x 1 night", "amount": 72 },
+        { "title": "Cleaning fee", "amount": 6 }
+      ]
+    }
+  },
+  {
+    "host": "Christopher Clark",
+
+    "position": 13,
+    "name": "Room Wilmersdorf/Charlottenburg",
+    "category": "Boats",
+    "bathrooms": 1,
+    "bedrooms": 1,
+    "beds": 1,
+    "city": "Berlin",
+    "images": [
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-976919433562846837/original/4ff1b9c4-8c0a-47de-bc79-6049153a9c7e.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/5fcda68a-a5b8-45b6-8278-56af71904d94.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/3b3f2c47-7bd3-465c-88ea-d71375fe13de.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-976919433562846837/original/0128c96e-1a03-4adf-b7eb-f1e9e7ab35f1.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/6e889a1b-6028-4e37-ab13-8882e816b023.jpg?im_w=720"
+    ],
+    "hostThumbnail": "https://a0.muscache.com/im/pictures/user/User-439647721/original/d8a42313-7ac5-4981-b989-9ab26a7a7d73.jpeg?aki_policy=profile_x_medium",
+    "isSuperhost": true,
+    "rareFind": false,
+    "lat": 52.49459328193652,
+    "lng": 13.31318635493517,
+    "persons": 2,
+    "reviewsCount": 28,
+    "rating": 4.89,
+    "type": "Home",
+    "userId": 439647721,
+    "address": "Berlin, Berlin, Germany",
+    "price": {
+      "rate": 86,
+      "currency": "USD",
+      "total": 86,
+      "priceItems": [
+        { "title": "$73 x 1 night", "amount": 73 },
+        { "title": "Airbnb service fee", "amount": 13 }
+      ]
+    }
+  },
+  {
+    "host": "Grace Lewis",
+
+    "position": 14,
+    "name": "4 Personen Altbau nahe Kurfürstendamm - Macbeth",
+    "category": "Lakefront",
+    "bathrooms": 1,
+    "bedrooms": 2,
+    "beds": 2,
+    "city": "Berlin",
+    "images": [
+      "https://a0.muscache.com/im/pictures/2fcb5dea-1d28-4d8b-9401-3209450860a0.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/53a5ec69-0ebf-4df9-a3fe-1036dac33e7e.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/ca84f8fc-384d-4f64-801c-9cbe97f6abd9.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/b5bd03dc-262c-4234-b791-d966775ffd1f.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/4c80cedf-7860-4fbc-997c-c6acac14b058.jpg?im_w=720"
+    ],
+    "hostThumbnail": "https://a0.muscache.com/im/pictures/user/ba6be34e-5480-4f74-806f-a0bbb233f7da.jpg?aki_policy=profile_x_medium",
+    "isSuperhost": true,
+    "rareFind": false,
+    "lat": 52.4991,
+    "lng": 13.32251,
+    "persons": 4,
+    "reviewsCount": 210,
+    "rating": 4.9,
+    "type": "Home",
+    "userId": 352133902,
+    "address": "Berlin, Berlin, Germany",
+    "price": {
+      "rate": 210,
+      "currency": "USD",
+      "total": 210,
+      "priceItems": [
+        { "title": "$143 x 1 night", "amount": 143 },
+        { "title": "Cleaning fee", "amount": 53 },
+        { "title": "Taxes", "amount": 14 }
+      ]
+    }
+  },
+  {
+    "host": "Matthew Walker",
+    "position": 15,
+    "name": "Stylish room in Schöneberg",
+    "category": "New",
+    "bathrooms": 1,
+    "bedrooms": 1,
+    "beds": 1,
+    "city": "Berlin",
+    "images": [
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-1028233458536518838/original/234553e6-47f2-484d-9ea7-c833f7575145.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1028233458536518838/original/3f864d8f-883d-4135-ab1d-d70a457306d6.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-1028233458536518838/original/9ecc33ca-4a4c-42dc-b1e9-bbfeb1ea481c.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1028233458536518838/original/fbb6574b-e4f1-432b-ac63-395af317d68a.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-1028233458536518838/original/8acc0b2c-4a56-40c5-8119-775e73e5b225.jpeg?im_w=720"
+    ],
+    "hostThumbnail": "https://a0.muscache.com/im/pictures/user/User-547224886/original/0e34f3f1-38c4-4d99-9b33-2d35812ad6e8.jpeg?aki_policy=profile_x_medium",
+    "isSuperhost": true,
+    "rareFind": false,
+    "lat": 52.48946979138903,
+    "lng": 13.361206730786341,
+    "persons": 2,
+    "reviewsCount": 86,
+    "rating": 4.81,
+    "type": "Home",
+    "userId": 547224886,
+    "address": "Berlin, Berlin, Germany",
+    "price": {
+      "rate": 90,
+      "currency": "USD",
+      "total": 90,
+      "priceItems": [
+        { "title": "$84 x 1 night", "amount": 84 },
+        { "title": "Cleaning fee", "amount": 6 }
+      ]
+    }
+  },
+  {
+    "host": "Zoe Young",
+    "position": 16,
+    "name": "big Apartment for 9 person in the centre of Berlin",
+    "category": "Tiny homes",
+    "bathrooms": 2,
+    "bedrooms": 2,
+    "beds": 9,
+    "city": "Berlin",
+    "images": [
+      "https://a0.muscache.com/im/pictures/miso/Hosting-45854967/original/f34c6861-3e28-46fc-89da-b1d6bc830899.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-45854967/original/164f9471-3b26-4c93-a765-f6e55070a0c0.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-45854967/original/ede9a4e6-8bd6-4704-823b-fbe74f907b3e.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-45854967/original/c48f6e08-b8b3-492f-8a03-36b3ef3a832b.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-45854967/original/062e1182-12cd-4737-b5cc-ebfd08ab0563.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-45854967/original/9858bdf6-99fc-426a-832c-9358a900b12c.jpeg?im_w=720"
+    ],
+    "hostThumbnail": "https://a0.muscache.com/im/pictures/user/7610ee97-6805-484f-ab0f-cfa8e4b6f677.jpg?aki_policy=profile_x_medium",
+    "isSuperhost": false,
+    "rareFind": false,
+    "lat": 52.50308,
+    "lng": 13.33521,
+    "persons": 9,
+    "reviewsCount": 122,
+    "rating": 4.35,
+    "type": "Home",
+    "userId": 230386042,
+    "address": "Berlin, Berlin, Germany",
+    "price": {
+      "rate": 248,
+      "currency": "USD",
+      "total": 248,
+      "priceItems": [
+        { "title": "$220 x 1 night", "amount": 220 },
+        { "title": "Cleaning fee", "amount": 28 }
+      ]
+    }
+  },
+  {
+    "host": "Daniel Hall",
+    "position": 17,
+    "name": "Lovely and bright room",
+    "category": "Camping",
+    "bathrooms": 1,
+    "bedrooms": 1,
+    "beds": 1,
+    "city": "Berlin",
+    "images": [
+      "https://a0.muscache.com/im/pictures/3e1a9a24-0cda-4a97-9bbc-bd4e0111cd92.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/0de3ee6a-d2fb-4816-b3de-71177ad8d6f1.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/f555d1ec-a10c-45db-baf0-99098f906311.jpg?im_w=720"
+    ],
+    "hostThumbnail": "https://a0.muscache.com/im/pictures/user/a03541ac-eac2-40c3-9671-b342aed4eab0.jpg?aki_policy=profile_x_medium",
+    "isSuperhost": true,
+    "rareFind": false,
+    "lat": 52.46835,
+    "lng": 13.33463,
+    "persons": 1,
+    "reviewsCount": 193,
+    "rating": 4.72,
+    "type": "Home",
+    "userId": 118218576,
+    "address": "Berlin, Berlin, Germany",
+    "price": {
+      "rate": 52,
+      "currency": "USD",
+      "total": 52,
+      "priceItems": [
+        { "title": "$36 x 1 night", "amount": 36 },
+        { "title": "Cleaning fee", "amount": 8 },
+        { "title": "Airbnb service fee", "amount": 8 }
+      ]
+    }
+  },
+  {
+    "host": "Amelia Allen",
+    "position": 18,
+    "name": "Kleines (Anna 1908)",
+    "category": "Amazing pools",
+    "bathrooms": 1,
+    "bedrooms": 1,
+    "beds": 1,
+    "city": "Berlin",
+    "images": [
+      "https://a0.muscache.com/im/pictures/ec42eca6-2917-4aa4-a9bd-e5fb25031ccc.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/6272be2b-ca55-46e7-966b-6b2265291876.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/2bfe3526-e086-4ebd-a7e8-3fe8ea3f0a1e.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/b70922ac-07e6-43e9-aed0-9352e8958bd5.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/e347d464-bcfd-4459-b4f9-b9abdcdbd0a4.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/4fe6a2d0-0615-4ed1-9dff-ca7ccc72da67.jpg?im_w=720"
+    ],
+    "hostThumbnail": "https://a0.muscache.com/im/pictures/user/19b02e83-cce2-4f9a-a0ff-2b781eed45ce.jpg?aki_policy=profile_x_medium",
+    "isSuperhost": true,
+    "rareFind": false,
+    "lat": 52.46545,
+    "lng": 13.32632,
+    "persons": 2,
+    "reviewsCount": 71,
+    "rating": 4.82,
+    "type": "Room",
+    "userId": 213877372,
+    "address": "Berlin, Berlin, Germany",
+    "price": {
+      "rate": 85,
+      "currency": "USD",
+      "total": 85,
+      "priceItems": [{ "title": "$85 x 1 night", "amount": 85 }]
+    }
+  },
+  {
+    "host": "Anthony Wright",
+    "position": 19,
+    "name": "huge room in artistic flat",
+    "category": "Houseboats",
+    "bathrooms": 1.5,
+    "bedrooms": 1,
+    "beds": 1,
+    "city": "Berlin",
+    "images": [
+      "https://a0.muscache.com/im/pictures/miso/Hosting-48987728/original/cfed30d1-4580-4ff5-9c25-997e915323d4.jpeg?aki_policy=large",
+      "https://a0.muscache.com/im/pictures/airflow/Hosting-48987728/original/755bc724-5c9b-4b17-bd73-b6cc3aa3c6b1.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/airflow/Hosting-48987728/original/4554f5bd-a2c6-4556-9065-755c9e34fd5e.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/airflow/Hosting-48987728/original/3d2ca774-f50b-46a3-b0b5-10b33d71a20f.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-48987728/original/12f89353-3944-4c9f-9713-57993ad41f16.jpeg?im_w=720"
+    ],
+    "hostThumbnail": "https://a0.muscache.com/im/pictures/user/ed425346-cee1-4826-b2ec-97b4da56b825.jpg?aki_policy=profile_x_medium",
+    "isSuperhost": true,
+    "rareFind": false,
+    "lat": 52.48971,
+    "lng": 13.33524,
+    "persons": 2,
+    "reviewsCount": 112,
+    "rating": 4.74,
+    "type": "Home",
+    "userId": 368264,
+    "address": "Berlin, Berlin, Germany",
+    "price": {
+      "rate": 72,
+      "currency": "USD",
+      "total": 72,
+      "priceItems": [
+        { "title": "$50 x 1 night", "amount": 50 },
+        { "title": "Cleaning fee", "amount": 11 },
+        { "title": "Airbnb service fee", "amount": 11 }
+      ]
+    }
+  },
+  {
+    "host": "Ella Scott",
+    "position": 20,
+    "name": "limehome Berlin Stresem. | Room-Wheelchair access",
+    "category": "Cabins",
+    "bathrooms": 1,
+    "bedrooms": 1,
+    "beds": 1,
+    "city": "Berlin",
+    "images": [
+      "https://a0.muscache.com/im/pictures/miso/Hosting-945370095384488800/original/13c0e041-c018-4901-b8c4-d36f75800673.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-945370095384488800/original/ebe5deeb-e881-4433-9249-a90369438fc7.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-945370095384488800/original/275b2ccb-8e2f-4a5e-8cc9-30a95306ed6f.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-945370095384488800/original/87bdc732-53a6-49d2-b7e4-1b5c03c5d377.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-945370095384488800/original/93292214-55b3-43f5-9703-e9ece08c708c.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-945370095384488800/original/b0165519-3430-4b87-9070-f42284d5fa4a.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-945370095384488800/original/5164def7-f41d-4531-8167-59a78fccdbd7.jpeg?im_w=720"
+    ],
+    "hostThumbnail": "https://a0.muscache.com/im/pictures/user/0b5b504b-a884-41ac-ac2c-2700385f50a4.jpg?aki_policy=profile_x_medium",
+    "isSuperhost": false,
+    "rareFind": false,
+    "lat": 52.50092,
+    "lng": 13.3872948,
+    "persons": 2,
+    "reviewsCount": 35,
+    "rating": 4.66,
+    "type": "Room",
+    "userId": 418270816,
+    "address": "Berlin, Berlin, Germany",
+    "price": {
+      "rate": 101,
+      "currency": "USD",
+      "total": 101,
+      "priceItems": [{ "title": "$101 x 1 night", "amount": 101 }]
+    }
+  },
+  {
+    "host": "Andrew Green",
+    "position": 21,
+    "name": "Kleine feine Altbauwohnung",
+    "category": "National parks",
+    "bathrooms": 1,
+    "bedrooms": 1,
+    "beds": 1,
+    "city": "Berlin",
+    "images": [
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1195676775216661163/original/dadff0f2-7174-4fd8-9ac4-97be4deb2ff6.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1195676775216661163/original/80c26a9b-377a-49ef-bd84-b583d3e4d35a.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1195676775216661163/original/98e41286-9476-4ce4-9dd2-c991e106dd91.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1195676775216661163/original/4ab4739a-4746-4919-bd81-b71b1672a0eb.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1195676775216661163/original/14017e31-571b-41ed-8f76-d9f300dbc865.jpeg?im_w=720"
+    ],
+    "hostThumbnail": "https://a0.muscache.com/im/pictures/user/438537a7-d553-40a4-9a29-8f38f1af5341.jpg?aki_policy=profile_x_medium",
+    "isSuperhost": false,
+    "rareFind": false,
+    "lat": 52.454984288296814,
+    "lng": 13.321817857504692,
+    "persons": 2,
+    "reviewsCount": 6,
+    "rating": 4.83,
+    "type": "Room",
+    "userId": 143505952,
+    "address": "Berlin, Berlin, Germany",
+    "price": {
+      "rate": 131,
+      "currency": "USD",
+      "total": 131,
+      "priceItems": [
+        { "title": "$94 x 1 night", "amount": 94 },
+        { "title": "Cleaning fee", "amount": 17 },
+        { "title": "Airbnb service fee", "amount": 20 }
+      ]
+    }
+  },
+  {
+    "host": "Mia King",
+
+    "position": 22,
+    "name": "Quiet & Small (LINDEMANN'S)",
+    "category": "Caves",
+    "bathrooms": 1,
+    "bedrooms": 1,
+    "beds": 1,
+    "city": "Berlin",
+    "images": [
+      "https://a0.muscache.com/im/pictures/3cb3a025-a598-481c-b7f6-6d018eb0dc30.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/c220d812-031a-420a-abfd-615427e51631.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/632c59dd-726d-4508-9003-0d250dc68069.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/50d0fed8-8f34-4969-b696-7b7bc7b60317.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/b0fd65dd-1e1a-4abe-9fe2-e4a302f32f1d.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/88cdbd29-c4ef-4d3b-84d5-7a569120b701.jpg?im_w=720"
+    ],
+    "hostThumbnail": "https://a0.muscache.com/im/pictures/user/e74b6065-20ed-4b5a-b1d8-d884808579bb.jpg?aki_policy=profile_x_medium",
+    "isSuperhost": true,
+    "rareFind": false,
+    "lat": 52.49379,
+    "lng": 13.36134,
+    "persons": 2,
+    "reviewsCount": 526,
+    "rating": 4.73,
+    "type": "Room",
+    "userId": 215178674,
+    "address": "Berlin, Berlin, Germany",
+    "price": {
+      "rate": 85,
+      "currency": "USD",
+      "total": 85,
+      "priceItems": [{ "title": "$85 x 1 night", "amount": 85 }]
+    }
+  },
+  {
+    "host": "Joshua Adams",
+
+    "position": 23,
+    "name": "Einzelzimmer in Schöneberg",
+    "category": "New",
+    "bathrooms": 1,
+    "bedrooms": 0,
+    "beds": 1,
+    "city": "Berlin",
+    "images": [
+      "https://a0.muscache.com/im/pictures/miso/Hosting-46080792/original/cacabb8b-1e73-4038-991f-5d9ba3cdd18c.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-46080792/original/ec7d42d1-7699-4502-8be5-a4f322bae148.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-46080792/original/595aa809-5317-4206-9b48-3129e9b3a9e5.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-46080792/original/3442d82d-e0a4-4213-aedc-109858892f2b.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-46080792/original/bd2e1ab7-9c91-41fb-af10-1367c2f85fdc.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-46080792/original/5d8152b9-917b-4af8-b1e3-f9573a64c65d.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-46080792/original/ad856fe4-a7b9-4146-a2c6-cb331433c141.jpeg?im_w=720"
+    ],
+    "hostThumbnail": "https://a0.muscache.com/im/pictures/user/12a0b72f-7ade-4fac-a0fa-5d8435edaac1.jpg?aki_policy=profile_x_medium",
+    "isSuperhost": false,
+    "rareFind": false,
+    "lat": 52.49867,
+    "lng": 13.34014,
+    "persons": 1,
+    "reviewsCount": 72,
+    "rating": 4.49,
+    "type": "Room",
+    "userId": 373476835,
+    "address": "Berlin, Berlin, Germany",
+    "price": {
+      "rate": 68,
+      "currency": "USD",
+      "total": 68,
+      "priceItems": [
+        { "title": "$85 x 1 night", "amount": 85 },
+        { "title": "Early bird discount", "amount": 17 }
+      ]
+    }
+  },
+  {
+    "host": "Lily Nelson",
+
+    "position": 24,
+    "name": "limehome Berlin Luise-Henriette-Str | Single Suite",
+    "category": "New",
+    "bathrooms": 1,
+    "bedrooms": 1,
+    "beds": 1,
+    "city": "Berlin",
+    "images": [
+      "https://a0.muscache.com/im/pictures/prohost-api/Hosting-731809279716237058/original/80de6bc1-0e20-4ec5-97a8-4310b42dece5.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/prohost-api/Hosting-731809279716237058/original/4477c27e-9949-4d8d-a97a-a2dd1a573de8.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/prohost-api/Hosting-731809279716237058/original/be0424ab-b53a-4239-8c14-63c9df171025.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/prohost-api/Hosting-731809279716237058/original/86d8e5ef-341a-4269-8f44-adfe7ac8eda3.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/prohost-api/Hosting-731809279716237058/original/dc285277-1f40-4b56-aeb8-38f3a4aee9e2.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/prohost-api/Hosting-731809279716237058/original/5d7000c5-2331-4b65-ac7d-c342999dcff9.jpeg?im_w=720"
+    ],
+    "hostThumbnail": "https://a0.muscache.com/im/pictures/user/0b5b504b-a884-41ac-ac2c-2700385f50a4.jpg?aki_policy=profile_x_medium",
+    "isSuperhost": false,
+    "rareFind": false,
+    "lat": 52.464195,
+    "lng": 13.384416,
+    "persons": 1,
+    "reviewsCount": 83,
+    "rating": 4.72,
+    "type": "Room",
+    "userId": 418270816,
+    "address": "Berlin, Berlin, Germany",
+    "price": {
+      "rate": 94,
+      "currency": "USD",
+      "total": 94,
+      "priceItems": [{ "title": "$94 x 1 night", "amount": 94 }]
+    }
+  },
+  {
+    "host": "Ryan Baker",
+
+    "position": 25,
+    "name": "4 Personen Altbau Kurfürstendamm - Romeo & Julia",
+    "category": "Countryside",
+    "bathrooms": 1,
+    "bedrooms": 2,
+    "beds": 2,
+    "city": "Berlin",
+    "images": [
+      "https://a0.muscache.com/im/pictures/8e081b92-24d9-4a92-9a05-e0aafec443aa.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/27c19541-4132-4d96-9b98-b315ecda003a.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/5844f72e-0923-4086-9e51-8a3eda30ed5b.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/bbac8e60-11ad-479a-a824-db3491c48da8.jpg?im_w=720"
+    ],
+    "hostThumbnail": "https://a0.muscache.com/im/pictures/user/ba6be34e-5480-4f74-806f-a0bbb233f7da.jpg?aki_policy=profile_x_medium",
+    "isSuperhost": true,
+    "rareFind": false,
+    "lat": 52.49831,
+    "lng": 13.32181,
+    "persons": 4,
+    "reviewsCount": 202,
+    "rating": 4.88,
+    "type": "Home",
+    "userId": 352133902,
+    "address": "Berlin, Berlin, Germany",
+    "price": {
+      "rate": 210,
+      "currency": "USD",
+      "total": 210,
+      "priceItems": [
+        { "title": "$143 x 1 night", "amount": 143 },
+        { "title": "Cleaning fee", "amount": 53 },
+        { "title": "Taxes", "amount": 14 }
+      ]
+    }
+  },
+  {
+    "host": "Hannah Gonzalez",
+
+    "position": 26,
+    "name": "Artist in Residence- House with Garden",
+    "category": "OMG!",
+    "bathrooms": 1,
+    "bedrooms": 1,
+    "beds": 2,
+    "city": "Berlin",
+    "images": [
+      "https://a0.muscache.com/im/pictures/9907e829-8bd1-4d64-8d89-c5e150dd6a19.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/8816183c-dd88-464e-9573-ecf9fe08b9eb.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/858cb94b-2589-4bc0-b6f3-6a744b2c8c8b.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/ee6f54f2-1823-4786-8df1-6d4b7d1e4618.jpg?im_w=720",
+
+      "https://a0.muscache.com/im/pictures/0dc37812-5b7c-4da8-bc27-87e38b418c87.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/30e4682f-73f2-4c50-ae62-e8a2e4d3c510.jpg?im_w=720"
+    ],
+    "hostThumbnail": "https://a0.muscache.com/im/users/16320372/profile_pic/1401804451/original.jpg?aki_policy=profile_x_medium",
+    "isSuperhost": true,
+    "rareFind": false,
+    "lat": 52.48632,
+    "lng": 13.35499,
+    "persons": 2,
+    "reviewsCount": 301,
+    "rating": 4.86,
+    "type": "Home",
+    "userId": 16320372,
+    "address": "Berlin, Berlin, Germany",
+    "price": {
+      "rate": 118,
+      "currency": "USD",
+      "total": 118,
+      "priceItems": [
+        { "title": "$61 x 1 night", "amount": 61 },
+        { "title": "Cleaning fee", "amount": 39 },
+        { "title": "Airbnb service fee", "amount": 18 }
+      ]
+    }
+  },
+  {
+    "host": "Benjamin Perez",
+
+    "position": 27,
+    "name": "limehome Berlin Luise-Henriette-Str. | Suite",
+    "category": "Amazing views",
+    "bathrooms": 1,
+    "bedrooms": 1,
+    "beds": 1,
+    "city": "Berlin",
+    "images": [
+      "https://a0.muscache.com/im/pictures/prohost-api/Hosting-731825380030233334/original/3a69e7ce-400c-4366-94ca-ad7b83f94a6e.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-731825380030233334/original/dd0f017c-4ed5-43f0-9e07-5daad7d86bae.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/prohost-api/Hosting-731825380030233334/original/ef75996c-25ee-4e26-b859-dd94e23e8d69.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/prohost-api/Hosting-731825380030233334/original/9e62125e-38f2-4685-89d8-0097da4d6717.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/prohost-api/Hosting-731825380030233334/original/00525b94-0000-4035-92c5-33192f248dc0.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/prohost-api/Hosting-731825380030233334/original/58402ec5-b69b-47e5-9f3d-944df7fc14b7.jpeg?im_w=720"
+    ],
+    "hostThumbnail": "https://a0.muscache.com/im/pictures/user/0b5b504b-a884-41ac-ac2c-2700385f50a4.jpg?aki_policy=profile_x_medium",
+    "isSuperhost": false,
+    "rareFind": false,
+    "lat": 52.464195,
+    "lng": 13.384416,
+    "persons": 2,
+    "reviewsCount": 174,
+    "rating": 4.67,
+    "type": "Room",
+    "userId": 418270816,
+    "address": "Berlin, Berlin, Germany",
+    "price": {
+      "rate": 98,
+      "currency": "USD",
+      "total": 98,
+      "priceItems": [{ "title": "$98 x 1 night", "amount": 98 }]
+    }
+  },
+  {
+    "host": "Victoria Roberts",
+
+    "position": 28,
+    "name": "Central, cosy and airy apartment in Kreuzberg",
+    "category": "Golfing",
+    "bathrooms": 1,
+    "bedrooms": 1,
+    "beds": 1,
+    "city": "Berlin",
+    "images": [
+      "https://a0.muscache.com/im/pictures/c0355544-fe23-47b8-a7d4-14c7a05b4bb2.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/183007ce-06f8-41ae-a8b6-060d4145159f.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/782c5615-1588-4e01-9e95-3bf64320eb8d.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/b20bd8e5-3446-40f9-8763-195bf5ef4adb.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/3ae822d5-ac0f-46ad-ba2b-9123fe22b568.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/b5ad2ced-fe16-48d7-b1da-f6d07358c5ce.jpg?im_w=720"
+    ],
+    "hostThumbnail": "https://a0.muscache.com/im/pictures/user/9bc2fca4-7c9e-48d5-9f07-5c82d092246e.jpg?aki_policy=profile_x_medium",
+    "isSuperhost": true,
+    "rareFind": false,
+    "lat": 52.49546,
+    "lng": 13.38082,
+    "persons": 2,
+    "reviewsCount": 413,
+    "rating": 4.88,
+    "type": "Room",
+    "userId": 17029506,
+    "address": "Berlin, Berlin, Germany",
+    "price": {
+      "rate": 142,
+      "currency": "USD",
+      "total": 142,
+      "priceItems": [
+        { "title": "$98 x 1 night", "amount": 98 },
+        { "title": "Cleaning fee", "amount": 22 },
+        { "title": "Airbnb service fee", "amount": 22 }
+      ]
+    }
+  },
+  {
+    "host": "Ethan Turner",
+
+    "position": 29,
+    "name": "Economy Doppelzimmer in Schöneberg",
+    "category": "Rooms",
+    "bathrooms": 1,
+    "bedrooms": 0,
+    "beds": 2,
+    "city": "Berlin",
+    "images": [
+      "https://a0.muscache.com/im/pictures/6ab1f686-c414-47c2-acc6-5c3197e8a5ba.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/80336dfd-2a27-46d2-9d39-2cf41a53909c.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/c4ce177c-b282-48a8-8453-9661ac9578d4.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/00a65294-611d-45ae-bc42-13f295ec646d.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-46084713/original/a9a10b0c-1403-45b6-9d40-cdbfbcef53c8.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-46084713/original/5c05320e-a585-4976-a261-599371046779.jpeg?im_w=720"
+    ],
+    "hostThumbnail": "https://a0.muscache.com/im/pictures/user/12a0b72f-7ade-4fac-a0fa-5d8435edaac1.jpg?aki_policy=profile_x_medium",
+    "isSuperhost": false,
+    "rareFind": false,
+    "lat": 52.49796,
+    "lng": 13.33997,
+    "persons": 2,
+    "reviewsCount": 68,
+    "rating": 4.44,
+    "type": "Room",
+    "userId": 373476835,
+    "address": "Berlin, Berlin, Germany",
+    "price": {
+      "rate": 83,
+      "currency": "USD",
+      "total": 83,
+      "priceItems": [
+        { "title": "$104 x 1 night", "amount": 104 },
+        { "title": "Early bird discount", "amount": 21 }
+      ]
+    }
+  },
+  {
+    "host": "Ava Phillips",
+
+    "position": 30,
+    "name": "Apartment near Potsdamer Place",
+    "category": "Arctic",
+    "bathrooms": 1,
+    "bedrooms": 1,
+    "beds": 1,
+    "city": "Berlin",
+    "images": [
+      "https://a0.muscache.com/im/pictures/81697785/87c66613_original.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/81699221/1403c510_original.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/81696432/45c46487_original.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/56007320/f5b0eaa2_original.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/15535122/16c3c656_original.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/81698103/d73bbf1f_original.jpg?im_w=720"
+    ],
+    "hostThumbnail": "https://a0.muscache.com/im/users/5687919/profile_pic/1364660300/original.jpg?aki_policy=profile_x_medium",
+    "isSuperhost": true,
+    "rareFind": false,
+    "lat": 52.50386,
+    "lng": 13.37007,
+    "persons": 2,
+    "reviewsCount": 506,
+    "rating": 4.8,
+    "type": "Room",
+    "userId": 5687919,
+    "address": "Berlin, Berlin, Germany",
+    "price": {
+      "rate": 144,
+      "currency": "USD",
+      "total": 144,
+      "priceItems": [
+        { "title": "$83 x 1 night", "amount": 83 },
+        { "title": "Cleaning fee", "amount": 39 },
+        { "title": "Airbnb service fee", "amount": 22 }
+      ]
+    }
+  },
+  {
+    "host": "Samuel Parker",
+
+    "position": 31,
+    "name": "KudammBeauty-160m²-4Rooms-2Bathroom-Balcony",
+    "category": "Beachfont",
+    "bathrooms": 2,
+    "bedrooms": 3,
+    "beds": 3,
+    "city": "Berlin",
+    "images": [
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE4NTM2MjMxNDUzMTYzOTQwOA%3D%3D/original/9bf06588-fd2d-4a86-be82-3df2197fb934.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE4NTM2MjMxNDUzMTYzOTQwOA%3D%3D/original/757c8f8c-dbb5-433f-946f-b12f254987f0.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE4NTM2MjMxNDUzMTYzOTQwOA%3D%3D/original/34fb8608-f115-474e-a17b-7882012aa1e6.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE4NTM2MjMxNDUzMTYzOTQwOA%3D%3D/original/45d3f707-87d9-4279-8a8d-58c18112fca5.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE4NTM2MjMxNDUzMTYzOTQwOA%3D%3D/original/60c3a16b-ca14-4598-badb-bf4ea0adecf9.jpeg?im_w=720",
+
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE4NTM2MjMxNDUzMTYzOTQwOA%3D%3D/original/81013ab8-b7ad-4b0e-8d3b-038cfc310eb3.jpeg?im_w=720"
+    ],
+    "hostThumbnail": "https://a0.muscache.com/im/pictures/user/0d0adb86-121e-425b-8c4e-121c90490123.jpg?aki_policy=profile_x_medium",
+    "isSuperhost": true,
+    "rareFind": false,
+    "lat": 52.4975442,
+    "lng": 13.3112764,
+    "persons": 6,
+    "reviewsCount": 15,
+    "rating": 4.87,
+    "type": "Room",
+    "userId": 373606229,
+    "address": "Berlin, Berlin, Germany",
+    "price": {
+      "rate": 441,
+      "currency": "USD",
+      "total": 441,
+      "priceItems": [
+        { "title": "$275 x 1 night", "amount": 275 },
+        { "title": "Cleaning fee", "amount": 166 }
+      ]
+    }
+  },
+  {
+    "host": "Lillian Evans",
+
+    "position": 32,
+    "name": "Helles Elegantes Zimmer in Berlin-Schöneberg (12)",
+    "category": "Tiny homes",
+    "bathrooms": 0.5,
+    "bedrooms": 1,
+    "beds": 1,
+    "city": "Berlin",
+    "images": [
+      "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1197652368892223424/original/6358eccf-76fe-4ef7-93a1-d1b02f29de5d.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1197652368892223424/original/d70b0f71-9f12-4f06-8d0e-fb85d41e9db7.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1197652368892223424/original/f5c6ac85-6161-4c89-a8ca-81eccc5a55e7.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1197652368892223424/original/2d9b493d-ad6c-432b-bcef-2d33d0a61020.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1197652368892223424/original/5bf8e7d0-f679-41f7-af1f-0c8b1f8eb6b8.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1197652368892223424/original/6d11823a-6252-40bb-beb4-95acdb2f48f7.jpeg?im_w=720"
+    ],
+    "hostThumbnail": "https://a0.muscache.com/im/pictures/user/d78c3443-b61e-4f9a-9670-5a4fead51d0d.jpg?aki_policy=profile_x_medium",
+    "isSuperhost": false,
+    "rareFind": false,
+    "lat": 52.49815,
+    "lng": 13.3457,
+    "persons": 2,
+    "reviewsCount": 11,
+    "rating": 4.73,
+    "type": "Home",
+    "userId": 46134517,
+    "address": "Berlin, Berlin, Germany",
+    "price": {
+      "rate": 109,
+      "currency": "USD",
+      "total": 109,
+      "priceItems": [
+        { "title": "$77 x 1 night", "amount": 77 },
+        { "title": "Cleaning fee", "amount": 32 }
+      ]
+    }
+  },
+  {
+    "host": "Jacob Edwards",
+
+    "position": 33,
+    "name": "Schönes Apartment nähe Zentrums",
+    "category": "",
+    "bathrooms": 1,
+    "bedrooms": 1,
+    "beds": 2,
+    "city": "Berlin",
+    "images": [
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1235471973212937900/original/a07413fb-7de2-439a-9f57-043090cdb5e7.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1235471973212937900/original/fa767387-c718-4b62-9236-930a83d9d769.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1235471973212937900/original/3f82d1fa-65db-402d-8ba8-20346b66878c.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1235471973212937900/original/5c6c42e8-e485-427c-8903-f516a5e763ec.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1235471973212937900/original/954921c0-18ac-465e-94b7-4e9cd198f6de.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1235471973212937900/original/5c6c42e8-e485-427c-8903-f516a5e763ec.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1235471973212937900/original/e93f9b22-5c1d-4ad7-854c-a115ee2eae07.jpeg?im_w=720"
+    ],
+    "hostThumbnail": "https://a0.muscache.com/im/pictures/user/1010de67-0e46-46fc-b8d2-d809cc42017b.jpg?aki_policy=profile_x_medium",
+    "isSuperhost": false,
+    "rareFind": false,
+    "lat": 52.4797985085715,
+    "lng": 13.335559051102855,
+    "persons": 2,
+    "reviewsCount": 0,
+    "type": "Room",
+    "userId": 472860321,
+    "address": "Berlin, Berlin, Germany",
+    "price": {
+      "rate": 107,
+      "currency": "USD",
+      "total": 107,
+      "priceItems": [
+        { "title": "$85 x 1 night", "amount": 85 },
+        { "title": "Cleaning fee", "amount": 6 },
+        { "title": "Airbnb service fee", "amount": 16 }
+      ]
+    }
+  },
+  {
+    "host": "Madison Collins",
+
+    "position": 34,
+    "name": "Sunny apartment with balcony",
+    "category": "Cabins",
+    "bathrooms": 1,
+    "bedrooms": 2,
+    "beds": 0,
+    "city": "Berlin",
+    "images": [
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-1103178171226396121/original/5b3130b7-4418-4283-a6a8-e2a55e5f0f91.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-1103178171226396121/original/f845d506-331e-4b2b-a14b-1a27ffa2790f.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-1103178171226396121/original/0fa0e199-62ad-45a0-9a24-177317d888a6.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-1103178171226396121/original/c1380b66-a6d0-4975-a31e-ae3e80cbe869.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-1103178171226396121/original/90c84ad1-edc0-4951-9e8c-a0c762583965.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-1103178171226396121/original/f126874d-acca-4a7f-9c7e-d4abede28579.jpeg?im_w=720",
+
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-1103178171226396121/original/2d9bb52e-0ac8-466d-84fc-b4472893e172.jpeg?im_w=720"
+    ],
+    "hostThumbnail": "https://a0.muscache.com/im/pictures/user/User-550548770/original/98dcf589-d5fd-4a67-8c9a-17394c15e082.jpeg?aki_policy=profile_x_medium",
+    "isSuperhost": false,
+    "rareFind": false,
+    "lat": 52.48698721537127,
+    "lng": 13.390770262008456,
+    "persons": 2,
+    "reviewsCount": 9,
+    "rating": 4.78,
+    "type": "Room",
+    "userId": 550548770,
+    "address": "Berlin, Berlin, Germany",
+    "price": {
+      "rate": 234,
+      "currency": "USD",
+      "total": 234,
+      "priceItems": [
+        { "title": "$143 x 1 night", "amount": 143 },
+        { "title": "Cleaning fee", "amount": 55 },
+        { "title": "Airbnb service fee", "amount": 36 }
+      ]
+    }
+  },
+  {
+    "host": "Lucas Stewart",
+
+    "position": 35,
+    "name": "Individual Hotel Gat Point Charlie Berlin",
+    "category": "OMG!",
+    "bathrooms": 1,
+    "bedrooms": 0,
+    "beds": 1,
+    "city": "Berlin",
+    "images": [
+      "https://a0.muscache.com/im/pictures/31fd1f6d-4e18-4120-8385-780a1d812551.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/53044322-e553-498f-b2fe-4ec7ecf21637.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-1158465875723334808/original/d19a8da4-69c6-49a9-a1a5-a9d39f4bfb44.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-1103178171226396121/original/7c060be3-1117-402d-9cf6-4b7fc112de6c.jpeg?im_w=720"
+    ],
+    "hostThumbnail": "https://a0.muscache.com/im/pictures/user/c1be812f-94ef-472a-bda9-d9f4b023d7be.jpg?aki_policy=profile_x_medium",
+    "isSuperhost": false,
+    "rareFind": false,
+    "lat": 52.5083,
+    "lng": 13.38767,
+    "persons": 1,
+    "reviewsCount": 57,
+    "rating": 4.65,
+    "type": "Room",
+    "userId": 381323865,
+    "address": "Berlin, Berlin, Germany",
+    "price": {
+      "rate": 72,
+      "currency": "USD",
+      "total": 72,
+      "priceItems": [{ "title": "$72 x 1 night", "amount": 72 }]
+    }
+  },
+  {
+    "host": "Scarlett Rogers",
+
+    "position": 36,
+    "name": "SouthStar - Living with art",
+    "category": "Golfing",
+    "bathrooms": 1,
+    "bedrooms": 1,
+    "beds": 0,
+    "city": "Berlin",
+    "images": [
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-1158465875723334808/original/6dffe0aa-a6bf-4519-ab14-e48b8e760185.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-1158465875723334808/original/950cf0a3-03da-4b42-ae77-d07764384860.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-1158465875723334808/original/d19a8da4-69c6-49a9-a1a5-a9d39f4bfb44.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-1158465875723334808/original/5a4a10bc-e1ec-4658-b4c2-66df2a50ed5e.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-1158465875723334808/original/dd480a9d-6ce2-4cc5-b6b0-f2c7812f5872.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-1158465875723334808/original/9de7f778-789f-4a83-b5d1-24655da637fb.jpeg?im_w=720"
+    ],
+    "hostThumbnail": "https://a0.muscache.com/im/pictures/user/User-33743388/original/c497166b-dab1-462a-b772-e73ea3fb21c6.jpeg?aki_policy=profile_x_medium",
+    "isSuperhost": false,
+    "rareFind": false,
+    "lat": 52.49456950306291,
+    "lng": 13.400668969238627,
+    "persons": 2,
+    "reviewsCount": 0,
+    "type": "Room",
+    "userId": 33743388,
+    "address": "Berlin, Berlin, Germany",
+    "price": {
+      "rate": 143,
+      "currency": "USD",
+      "total": 143,
+      "priceItems": [
+        { "title": "$88 x 1 night", "amount": 88 },
+        { "title": "Cleaning fee", "amount": 33 },
+        { "title": "Airbnb service fee", "amount": 22 }
+      ]
+    }
+  },
+  {
+    "host": "Elijah Morris",
+
+    "position": 37,
+    "name": "Doppelzimmer am Kudamm",
+    "category": "Rooms",
+    "bathrooms": 1,
+    "bedrooms": 1,
+    "beds": 2,
+    "city": "Berlin",
+    "images": [
+      "https://a0.muscache.com/im/pictures/52dccc31-e42d-4375-a9e4-01aae7ad676b.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/adf9a620-519f-481b-b7a3-4363e8b302ff.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/852441db-7187-4528-a592-085fd3fb9160.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/d1040cdc-1a45-4585-a053-f5d304637f73.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/848b8e74-cbf5-4819-94fe-1e75d37a735c.jpg?im_w=720"
+    ],
+    "hostThumbnail": "https://a0.muscache.com/im/pictures/user/7610ee97-6805-484f-ab0f-cfa8e4b6f677.jpg?aki_policy=profile_x_medium",
+    "isSuperhost": false,
+    "rareFind": false,
+    "lat": 52.50457,
+    "lng": 13.33391,
+    "persons": 2,
+    "reviewsCount": 56,
+    "rating": 4.23,
+    "type": "Room",
+    "userId": 230386042,
+    "address": "Berlin, Berlin, Germany",
+    "price": {
+      "rate": 72,
+      "currency": "USD",
+      "total": 72,
+      "priceItems": [{ "title": "$72 x 1 night", "amount": 72 }]
+    }
+  },
+  {
+    "host": "Abigail Sanders",
+
+    "position": 38,
+    "name": "Large windows and elegant palette. Plus a pool!",
+    "category": "Bed & breakfasts",
+    "bathrooms": 1,
+    "bedrooms": 1,
+    "city": "Berlin",
+    "images": [
+      "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1130338732311946203/original/bbc9b9e0-a4e4-47aa-9193-6bef4a06ac0f.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1130338732311946203/original/28705565-8748-49ee-97e2-36e109840cae.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1130338732311946203/original/d0e791ce-1f93-4792-b612-2ab6e1fa7f48.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1130338732311946203/original/55dfa1a9-ac87-43b3-8b9f-a6d897e69222.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1130338732311946203/original/c4b76042-fa83-4107-9771-fc6796d0f77f.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1130338732311946203/original/3aac20a7-e026-4df8-af18-1670dca56c70.jpeg?im_w=720"
+    ],
+    "hostThumbnail": "https://a0.muscache.com/im/pictures/user/3d703e63-bbc8-4cb4-b83c-cacf340a02f8.jpg?aki_policy=profile_x_medium",
+    "isSuperhost": true,
+    "rareFind": false,
+    "lat": 52.49901,
+    "lng": 13.33418,
+    "persons": 2,
+    "reviewsCount": 19,
+    "rating": 4.95,
+    "type": "Room",
+    "userId": 546619390,
+    "address": "Berlin, Berlin, Germany",
+    "price": {
+      "rate": 131,
+      "currency": "USD",
+      "total": 131,
+      "priceItems": [
+        { "title": "$122 x 1 night", "amount": 122 },
+        { "title": "Taxes and fees", "amount": 9 }
+      ]
+    }
+  },
+  {
+    "host": "Rokman Slioe",
+
+    "position": 39,
+    "name": "Nena Apartments Kreuzberg 61 \"Studio\"",
+    "category": "Top of the world",
+    "bathrooms": 1,
+    "bedrooms": 1,
+    "beds": 1,
+    "city": "Berlin",
+    "images": [
+      "https://a0.muscache.com/im/pictures/miso/Hosting-43798011/original/c6416ef9-5942-4d9f-82b5-966138e2d147.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-43798011/original/40bd4931-4ff0-4190-ad16-c2b24456a06c.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-43798011/original/cbef773b-7103-4db8-b4f5-06401f912856.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-43798011/original/7b81d113-0ec9-47be-8b13-b5ab6675fb36.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-43798011/original/6e8c73fd-9cdf-457b-ac09-7aa7a4ff32ac.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-43798011/original/0e9cbc2e-3a54-4e17-b711-a50ab30138e0.jpeg?im_w=720"
+    ],
+    "hostThumbnail": "https://a0.muscache.com/im/pictures/user/03be8f2f-8f3f-4ca0-9a59-d3184bfa50b8.jpg?aki_policy=profile_x_medium",
+    "isSuperhost": false,
+    "rareFind": false,
+    "lat": 52.495548248291016,
+    "lng": 13.396210670471191,
+    "persons": 2,
+    "reviewsCount": 1527,
+    "rating": 4.54,
+    "type": "Room in aparthotel",
+    "userId": 345525433,
+    "address": "Berlin, Berlin, Germany",
+    "price": {
+      "rate": 124,
+      "currency": "USD",
+      "total": 124,
+      "priceItems": [{ "title": "$124 x 1 night", "amount": 124 }]
+    }
+  },
+  {
+    "host": "Jacob Edwards",
+    "position": 40,
+    "name": "4 Personen Altbau nahe Kurfürstendamm - Othello",
+    "category": "Arctic",
+    "bathrooms": 1,
+    "bedrooms": 2,
+    "beds": 2,
+    "city": "Berlin",
+    "images": [
+      "https://a0.muscache.com/im/pictures/15775461-6d3e-4f5f-9dc3-2d997cca235f.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/fca1bc2d-1310-4d19-aebb-02c2892e09aa.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/add9d0f8-9268-4256-82ff-ecc34934c23c.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/5c53a127-f27d-4df5-9a20-5644e8ecc8f7.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/5a0d6e74-4dab-40b4-a0ca-e40966d57ab7.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/9ef3b272-e76f-4524-a4d3-771485211b8e.jpg?im_w=720"
+    ],
+    "hostThumbnail": "https://a0.muscache.com/im/pictures/user/ba6be34e-5480-4f74-806f-a0bbb233f7da.jpg?aki_policy=profile_x_medium",
+    "isSuperhost": true,
+    "rareFind": false,
+    "lat": 52.49598,
+    "lng": 13.32651,
+    "persons": 4,
+    "reviewsCount": 170,
+    "rating": 4.86,
+    "type": "Entire condo",
+    "userId": 352133902,
+    "address": "Berlin, Berlin, Germany",
+    "price": {
+      "rate": 219,
+      "currency": "USD",
+      "total": 219,
+      "priceItems": [
+        { "title": "$143 x 1 night", "amount": 143 },
+        { "title": "Cleaning fee", "amount": 53 },
+        { "title": "Taxes", "amount": 23 }
+      ]
+    }
+  }
+]
