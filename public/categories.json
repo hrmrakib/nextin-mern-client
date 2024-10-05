@@ -9,6 +9,40 @@
     "beds": 1,
     "city": "Berlin",
     "images": [
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1034594067790242581/original/0b16481d-3b7f-4452-a1c1-753db1380c71.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1034594067790242581/original/8d2e70b1-2ad4-46de-be5f-bca7263bf63e.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1034594067790242581/original/3361a650-f7a4-47b3-80b2-000a5b4e5ede.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1034594067790242581/original/9098af00-ec02-4a40-85b8-aee9a024578a.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1034594067790242581/original/7488108c-90c6-4d05-a073-b610510395f3.jpeg?im_w=720"
+    ],
+    "hostThumbnail": "https://a0.muscache.com/im/pictures/user/7610ee97-6805-484f-ab0f-cfa8e4b6f677.jpg?aki_policy=profile_x_medium",
+    "isSuperhost": false,
+    "rareFind": false,
+    "lat": 52.503186379494714,
+    "lng": 13.33325427471215,
+    "persons": 1,
+    "reviewsCount": 36,
+    "rating": 4.61,
+    "type": "Room",
+    "userId": 230386042,
+    "address": "Berlin, Berlin, Germany",
+    "price": {
+      "rate": 54,
+      "currency": "USD",
+      "total": 54,
+      "priceItems": [{ "title": "$54 x 1 night", "amount": 54 }]
+    }
+  },
+  {
+    "host": "Michael Brown",
+    "position": 1,
+    "name": "Mounzelzoom am Kudamm",
+    "category": "Countryside",
+    "bathrooms": 2,
+    "bedrooms": 5,
+    "beds": 5,
+    "city": "Berlin",
+    "images": [
       "https://a0.muscache.com/im/pictures/miso/Hosting-1034594067790242581/original/8d2e70b1-2ad4-46de-be5f-bca7263bf63e.jpeg?im_w=720",
       "https://a0.muscache.com/im/pictures/miso/Hosting-1034594067790242581/original/0b16481d-3b7f-4452-a1c1-753db1380c71.jpeg?im_w=720",
       "https://a0.muscache.com/im/pictures/miso/Hosting-1034594067790242581/original/3361a650-f7a4-47b3-80b2-000a5b4e5ede.jpeg?im_w=720",
@@ -27,7 +61,41 @@
     "userId": 230386042,
     "address": "Berlin, Berlin, Germany",
     "price": {
-      "rate": 54,
+      "rate": 98,
+      "currency": "USD",
+      "total": 54,
+      "priceItems": [{ "title": "$54 x 1 night", "amount": 54 }]
+    }
+  },
+  {
+    "host": "Michael Dogon",
+    "position": 1,
+    "name": "Urban Bath (LINDEMANN'S)",
+    "category": "Countryside",
+    "bathrooms": 1,
+    "bedrooms": 1,
+    "beds": 1,
+    "city": "Berlin",
+    "images": [
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1034594067790242581/original/7488108c-90c6-4d05-a073-b610510395f3.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1034594067790242581/original/8d2e70b1-2ad4-46de-be5f-bca7263bf63e.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1034594067790242581/original/0b16481d-3b7f-4452-a1c1-753db1380c71.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1034594067790242581/original/3361a650-f7a4-47b3-80b2-000a5b4e5ede.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1034594067790242581/original/9098af00-ec02-4a40-85b8-aee9a024578a.jpeg?im_w=720"
+    ],
+    "hostThumbnail": "https://a0.muscache.com/im/pictures/user/7610ee97-6805-484f-ab0f-cfa8e4b6f677.jpg?aki_policy=profile_x_medium",
+    "isSuperhost": false,
+    "rareFind": false,
+    "lat": 52.503186379494714,
+    "lng": 13.33325427471215,
+    "persons": 1,
+    "reviewsCount": 36,
+    "rating": 4.61,
+    "type": "Home",
+    "userId": 230386042,
+    "address": "Berlin, Berlin, Germany",
+    "price": {
+      "rate": 103,
       "currency": "USD",
       "total": 54,
       "priceItems": [{ "title": "$54 x 1 night", "amount": 54 }]

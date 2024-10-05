@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export const regions = [
+const regions = [
   {
     title: "I'm flexible",
     img: "/regions/flexible.png",

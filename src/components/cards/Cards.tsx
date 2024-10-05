@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import Container from "../Container";
 import Card from "./Card";
 import { useQuery } from "@tanstack/react-query";
@@ -6,10 +8,13 @@ import RoatingLine from "../loading/RoatingLine";
 import { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 import queryString from "query-string";
+import { useSelector } from "react-redux";
 
 const Cards = () => {
   const location = useLocation();
   const [searchQuery, setSearchQuery] = useState();
+
+  const filterResult = useSelector((state) => state.filterResult.filterResults);
 
   const { isPending, error, data, refetch } = useQuery({
     queryKey: ["getCategories"],
@@ -39,9 +44,13 @@ const Cards = () => {
   return (
     <Container>
       <div className='grid grid-cols-4 gap-6'>
-        {data?.map((category: any) => (
-          <Card key={category?._id} category={category} />
-        ))}
+        {filterResult && filterResult.length > 0
+          ? filterResult.map((category) => (
+              <Card key={category?._id} category={category} />
+            ))
+          : data?.map((category) => (
+              <Card key={category?._id} category={category} />
+            ))}
       </div>
     </Container>
   );

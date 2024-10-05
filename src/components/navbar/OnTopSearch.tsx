@@ -1,8 +1,6 @@
-// "use client";
-
 import { IoSearchSharp } from "react-icons/io5";
 import RegionSelector from "../modals/RegionSelector";
-import { useEffect, useRef, useState } from "react";
+import { useState } from "react";
 import AddGuestModal from "../modals/AddGuestModal";
 import DateRangeSelector from "../modals/DateRangePicker";
 
@@ -11,7 +9,7 @@ const OnTopSearch = () => {
   const [openGuest, setOpenGuest] = useState(false);
   const [openDateRangeIn, setOpenDateRangeIn] = useState(false);
   const [openDateRangeOut, setOpenDateRangeOut] = useState(false);
-  const regionRef = useRef(null);
+  // const regionRef = useRef(null);
 
   const toggleRegionModal = () => {
     setOpenRegion(!openRegion);

@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import * as React from "react";
 import Slider from "@mui/material/Slider";
 import RoomAndBed from "./RoomAndBed";
@@ -13,6 +15,9 @@ import TabContext from "@mui/lab/TabContext";
 import TabList from "@mui/lab/TabList";
 import { useLocation } from "react-router-dom";
 import queryString from "query-string";
+import { useDispatch } from "react-redux";
+import { setFiltrerResult } from "../../features/filterResult/filterResultSlice";
+import BookingOption from "./BookingOption";
 
 const styles = {
   color: "black",
@@ -31,6 +36,7 @@ const FilterForm = () => {
   const [searchQuery, setSearchQuery] = useState();
   const [value, setValue] = useState("any");
   const [isModalOpen, setModalOpen] = useState(false);
+  const dispatch = useDispatch();
 
   const handleChange = (event: React.SyntheticEvent, newValue: string) => {
     setValue(newValue);
@@ -50,10 +56,7 @@ const FilterForm = () => {
   });
 
   // use here for hoisting issue
-  const [price, setPrice] = React.useState<number[]>([
-    data?.findMinMaxPrice[0]?.minRate || 200,
-    data?.findMinMaxPrice[0]?.maxRate || 800,
-  ]);
+  const [price, setPrice] = React.useState<number[]>([200, 600]);
 
   const handlePriceChange = (event: Event, newValue: number | number[]) => {
     setPrice(newValue as number[]);
@@ -68,16 +71,29 @@ const FilterForm = () => {
   // call again and again "/api/type-of-place" -> when change the place type tab
   useEffect(() => {
     refetch();
-    handlePriceChange(event, [
-      data?.findMinMaxPrice[0]?.minRate,
-      data?.findMinMaxPrice[0]?.maxRate,
-    ]);
-  }, [value]);
+  }, [value, price]);
 
-  console.log(
-    data?.findMinMaxPrice[0]?.minRate,
-    data?.findMinMaxPrice[0]?.maxRate
-  );
+  useEffect(() => {
+    setTimeout(() => {
+      if (!isPending && data) {
+        setPrice([
+          data?.findMinMaxPrice[0]?.minRate,
+          data?.findMinMaxPrice[0]?.maxRate,
+        ]);
+      }
+    }, 50);
+  }, [value, data]);
+
+  const handleShowPlace = () => {
+    dispatch(setFiltrerResult(data?.typeOfPlace));
+    setModalOpen(false);
+  };
+
+  // console.log(data && data.typeOfPlace);
+
+  if (isPending) return <span>...</span>;
+
+  if (error) return "An error has occurred: " + error.message;
 
   return (
     <div className='h-full flex items-center justify-center'>
@@ -162,7 +178,8 @@ const FilterForm = () => {
 
               {data && data?.typeOfPlace.length <= 1 ? (
                 <p className='text-sm text-gray-700 text-center'>
-                  I found one result so it hasn't min/max price
+                  I found {data?.typeOfPlace.length} result so it hasn't min/max
+                  price
                 </p>
               ) : null}
             </div>
@@ -172,6 +189,9 @@ const FilterForm = () => {
 
             {/* Amenities */}
             <Amenities />
+
+            {/* Booking option */}
+            <BookingOption />
           </div>
 
           <div className='p-5 flex items-center justify-between'>
@@ -179,7 +199,7 @@ const FilterForm = () => {
               Clear all
             </button>
             <button
-              onClick={() => {}} // send data
+              onClick={() => handleShowPlace()} // send data
               disabled={data && data.typeOfPlace.length === 0}
               className='bg-black text-white px-3 py-2 rounded'
             >

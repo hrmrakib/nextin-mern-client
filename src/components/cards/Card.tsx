@@ -1,11 +1,14 @@
 import React, { useState, useRef } from "react";
 import { IoIosArrowForward, IoIosArrowBack } from "react-icons/io";
 import { MdOutlineFileUpload } from "react-icons/md";
+import { useSelector } from "react-redux";
+import { FaRegHeart } from "react-icons/fa";
 
-const ImageSlider = ({ category }: any) => {
+const ImageSlider = ({ category }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [touchStartX, setTouchStartX] = useState<number | null>(null);
   const sliderRef = useRef<HTMLDivElement>(null);
+  const filterResult = useSelector((state) => state.filterResult.filterResults);
 
   // handle next image
   const nextImage = () => {
@@ -75,9 +78,10 @@ const ImageSlider = ({ category }: any) => {
           >
             <IoIosArrowForward className='text-lg' />
           </button>
+
           {/* Dots for tracking current image */}
           <div className='absolute bottom-3 left-1/2  transform -translate-x-1/2 flex space-x-2'>
-            {category?.images?.map((_: any, index: number) => (
+            {category?.images?.map((_, index: number) => (
               <button
                 key={index}
                 onClick={() => goToImage(index)}
@@ -88,17 +92,26 @@ const ImageSlider = ({ category }: any) => {
             ))}
           </div>
         </div>
-        <h2 className='text-base text-black font-semibold mt-3'>
-          Stay in prince's purple rain house
+        <h2 className='text-base text-black font-semibold mt-4'>
+          {category?.name}
         </h2>
         <p className='text-base text-gray-600'>Hosted by {category?.host}</p>
-        <p className='text-base text-black font-normal -mt-1'>$7 per guest</p>
+        <p className='text-base text-black font-normal -mt-[3px]'>
+          ${category?.price?.rate} per guest
+        </p>
       </div>
 
       {/* Upload Icon */}
-      <button className='absolute right-4 top-7 transform -translate-y-1/2 px-1.5 py-1.5 bg-gray-200 hover:bg-white hover:shadow-md text-gray-800 hover:scale-105 transition duration-200 rounded-full'>
-        <MdOutlineFileUpload className='text-lg' />
-      </button>
+      {filterResult && filterResult.length <= 0 ? (
+        <button className='absolute right-4 top-7 transform -translate-y-1/2 px-1.5 py-1.5 bg-gray-200 hover:bg-white hover:shadow-md text-gray-800 hover:scale-105 transition duration-200 rounded-full'>
+          <MdOutlineFileUpload className='text-lg' />
+        </button>
+      ) : (
+        <button className='absolute right-4 top-7 transform -translate-y-1/2 px-1.5 py-1.5  hover:scale-110 transition duration-200 rounded-full'>
+          <FaRegHeart className='text-lg font-semibold text-rose-500' />
+        </button>
+      )}
+      {/* Favourite Icon */}
     </div>
   );
 };

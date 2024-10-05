@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import Container from "../Container";
 import CategoryBox from "./CategoryBox";
 import { categories } from "../../constants";
@@ -8,11 +10,13 @@ import SwitchBtn from "../switch/SwitchButton";
 import { Link, useLocation } from "react-router-dom";
 import { BiCategoryAlt } from "react-icons/bi";
 import queryString from "query-string";
+import { useDispatch } from "react-redux";
+import { clearFilterResults } from "../../features/filterResult/filterResultSlice";
 
 const Categories = () => {
   const location = useLocation();
   const [serachQuery, setSearchQuery] = useState();
-
+  const dispatch = useDispatch();
   const scrollRef = useRef<HTMLDivElement>(null);
   const [showLeftButton, setShowLeftButton] = useState(false);
   const [showRightButton, setShowRightButton] = useState(true);
@@ -74,6 +78,7 @@ const Categories = () => {
   useEffect(() => {
     const parsedString = queryString.parse(location.search);
     setSearchQuery(parsedString.category);
+    dispatch(clearFilterResults());
   }, [location.search]);
 
   return (
