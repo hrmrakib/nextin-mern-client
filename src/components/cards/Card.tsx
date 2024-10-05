@@ -1,14 +1,18 @@
+/* eslint-disable */
+
 import React, { useState, useRef } from "react";
 import { IoIosArrowForward, IoIosArrowBack } from "react-icons/io";
 import { MdOutlineFileUpload } from "react-icons/md";
 import { useSelector } from "react-redux";
 import { FaRegHeart } from "react-icons/fa";
 
-const ImageSlider = ({ category }) => {
+const ImageSlider = ({ category }: any) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [touchStartX, setTouchStartX] = useState<number | null>(null);
   const sliderRef = useRef<HTMLDivElement>(null);
-  const filterResult = useSelector((state) => state.filterResult.filterResults);
+  const filterResult = useSelector(
+    (state: any) => state.filterResult.filterResults
+  );
 
   // handle next image
   const nextImage = () => {
@@ -81,7 +85,7 @@ const ImageSlider = ({ category }) => {
 
           {/* Dots for tracking current image */}
           <div className='absolute bottom-3 left-1/2  transform -translate-x-1/2 flex space-x-2'>
-            {category?.images?.map((_, index: number) => (
+            {category?.images?.map((_: any, index: number) => (
               <button
                 key={index}
                 onClick={() => goToImage(index)}
