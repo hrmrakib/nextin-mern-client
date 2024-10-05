@@ -43,7 +43,6 @@ const Cards = () => {
 
   if (error) return "An error has occurred: " + error.message;
 
-  console.log(searchQuery);
 
   return (
     <Container>

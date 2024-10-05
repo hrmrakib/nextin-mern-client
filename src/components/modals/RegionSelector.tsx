@@ -34,7 +34,6 @@ const RegionSelector = () => {
     setRegion(value);
   };
 
-  console.log(region);
 
   return (
     <div className='absolute top-14 left-0 w-max bg-white p-5 rounded-2xl z-30'>
