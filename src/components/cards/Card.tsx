@@ -8,7 +8,7 @@ import { FaRegHeart } from "react-icons/fa";
 
 const ImageSlider = ({ category }: any) => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [touchStartX, setTouchStartX] = useState<number | null>(null);
+  const [touchStartX, setTouchStartX] = useState(null);
   const sliderRef = useRef<HTMLDivElement>(null);
   const filterResult = useSelector(
     (state: any) => state.filterResult.filterResults
@@ -105,7 +105,7 @@ const ImageSlider = ({ category }: any) => {
         </p>
       </div>
 
-      {/* Upload Icon */}
+      {/* Upload / Favourite Icon */}
       {filterResult && filterResult.length <= 0 ? (
         <button className='absolute right-4 top-7 transform -translate-y-1/2 px-1.5 py-1.5 bg-gray-200 hover:bg-white hover:shadow-md text-gray-800 hover:scale-105 transition duration-200 rounded-full'>
           <MdOutlineFileUpload className='text-lg' />
@@ -115,7 +115,6 @@ const ImageSlider = ({ category }: any) => {
           <FaRegHeart className='text-lg font-semibold text-rose-500' />
         </button>
       )}
-      {/* Favourite Icon */}
     </div>
   );
 };

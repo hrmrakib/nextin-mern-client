@@ -112,7 +112,7 @@ const Categories = () => {
                 Icon
               </p>
             </Link>
-            {categories?.map((category) => (
+            {categories?.map((category: any) => (
               <CategoryBox
                 key={category.label}
                 label={category.label}

@@ -25,7 +25,7 @@ const AddGuestModal = () => {
     <div className='absolute top-14 right-0 w-[390px] bg-white px-10 shadow-2xl rounded-3xl z-30'>
       <div className='py-5'>
         {guests?.map((guest, index) => (
-          <div
+          <div key={index}
             className={`flex items-center justify-between ${
               guests.length === index + 1 ? "" : "border-b"
             } py-5`}

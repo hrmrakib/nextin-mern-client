@@ -40,6 +40,7 @@ const FilterForm = () => {
 
   const handleChange = (event: React.SyntheticEvent, newValue: string) => {
     setValue(newValue);
+    console.log(event);
   };
 
   const { isPending, error, data, refetch } = useQuery({
@@ -60,6 +61,7 @@ const FilterForm = () => {
 
   const handlePriceChange = (event: Event, newValue: number | number[]) => {
     setPrice(newValue as number[]);
+    console.log(event);
   };
 
   // get category search value from url (?category=Countryside)
@@ -88,8 +90,6 @@ const FilterForm = () => {
     dispatch(setFiltrerResult(data?.typeOfPlace));
     setModalOpen(false);
   };
-
-  // console.log(data && data.typeOfPlace);
 
   if (isPending) return <span>...</span>;
 
