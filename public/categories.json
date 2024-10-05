@@ -4,9 +4,9 @@
     "position": 1,
     "name": "Einzelzimmer am Kudamm",
     "category": "Countryside",
-    "bathrooms": 1,
-    "bedrooms": 1,
-    "beds": 1,
+    "bathrooms": 2,
+    "bedrooms": 5,
+    "beds": 4,
     "city": "Berlin",
     "images": [
       "https://a0.muscache.com/im/pictures/miso/Hosting-1034594067790242581/original/0b16481d-3b7f-4452-a1c1-753db1380c71.jpeg?im_w=720",
@@ -16,10 +16,7 @@
       "https://a0.muscache.com/im/pictures/miso/Hosting-1034594067790242581/original/7488108c-90c6-4d05-a073-b610510395f3.jpeg?im_w=720"
     ],
     "hostThumbnail": "https://a0.muscache.com/im/pictures/user/7610ee97-6805-484f-ab0f-cfa8e4b6f677.jpg?aki_policy=profile_x_medium",
-    "isSuperhost": false,
-    "rareFind": false,
-    "lat": 52.503186379494714,
-    "lng": 13.33325427471215,
+
     "persons": 1,
     "reviewsCount": 36,
     "rating": 4.61,
@@ -50,10 +47,7 @@
       "https://a0.muscache.com/im/pictures/miso/Hosting-1034594067790242581/original/7488108c-90c6-4d05-a073-b610510395f3.jpeg?im_w=720"
     ],
     "hostThumbnail": "https://a0.muscache.com/im/pictures/user/7610ee97-6805-484f-ab0f-cfa8e4b6f677.jpg?aki_policy=profile_x_medium",
-    "isSuperhost": false,
-    "rareFind": false,
-    "lat": 52.503186379494714,
-    "lng": 13.33325427471215,
+
     "persons": 1,
     "reviewsCount": 36,
     "rating": 4.61,
@@ -84,10 +78,7 @@
       "https://a0.muscache.com/im/pictures/miso/Hosting-1034594067790242581/original/9098af00-ec02-4a40-85b8-aee9a024578a.jpeg?im_w=720"
     ],
     "hostThumbnail": "https://a0.muscache.com/im/pictures/user/7610ee97-6805-484f-ab0f-cfa8e4b6f677.jpg?aki_policy=profile_x_medium",
-    "isSuperhost": false,
-    "rareFind": false,
-    "lat": 52.503186379494714,
-    "lng": 13.33325427471215,
+
     "persons": 1,
     "reviewsCount": 36,
     "rating": 4.61,
@@ -119,14 +110,75 @@
       "https://a0.muscache.com/im/pictures/91baef2e-a83c-4814-be95-b6e36627d4b8.jpg?im_w=720"
     ],
     "hostThumbnail": "https://a0.muscache.com/im/pictures/user/e74b6065-20ed-4b5a-b1d8-d884808579bb.jpg?aki_policy=profile_x_medium",
-    "isSuperhost": true,
-    "rareFind": false,
-    "lat": 52.49379,
-    "lng": 13.36134,
+
     "persons": 2,
     "reviewsCount": 178,
     "rating": 4.8,
     "type": "Room",
+    "userId": 215178674,
+    "address": "Berlin, Berlin, Germany",
+    "price": {
+      "rate": 118,
+      "currency": "USD",
+      "total": 118,
+      "priceItems": [{ "title": "$118 x 1 night", "amount": 118 }]
+    }
+  },
+  {
+    "host": "Sarah Davis",
+    "position": 2,
+    "name": "Chouse Bath Marana",
+    "category": "OMG!",
+    "bathrooms": 1,
+    "bedrooms": 1,
+    "beds": 1,
+    "city": "Berlin",
+    "images": [
+      "https://a0.muscache.com/im/pictures/a228fa70-6792-461e-bd5d-c5fc9253ce3a.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/a2caf081-e15c-4302-8bcf-4c4a0be0b204.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/2c9a61c2-6651-4644-aa62-f72d62d786c5.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/eaa75d1c-aa94-4f44-8213-847cce8f370d.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/734c9f93-c71b-4ac9-9aa7-bad9ca47edc3.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/91baef2e-a83c-4814-be95-b6e36627d4b8.jpg?im_w=720"
+    ],
+    "hostThumbnail": "https://a0.muscache.com/im/pictures/user/e74b6065-20ed-4b5a-b1d8-d884808579bb.jpg?aki_policy=profile_x_medium",
+
+    "persons": 2,
+    "reviewsCount": 178,
+    "rating": 4.8,
+    "type": "Room",
+    "userId": 215178674,
+    "address": "Berlin, Berlin, Germany",
+    "price": {
+      "rate": 118,
+      "currency": "USD",
+      "total": 118,
+      "priceItems": [{ "title": "$118 x 1 night", "amount": 118 }]
+    }
+  },
+  {
+    "host": "Sarah Davis",
+    "position": 2,
+    "name": "Yogalo Bath Saptoning",
+    "category": "OMG!",
+    "bathrooms": 1,
+    "bedrooms": 1,
+    "beds": 1,
+    "city": "Berlin",
+    "images": [
+      "https://a0.muscache.com/im/pictures/734c9f93-c71b-4ac9-9aa7-bad9ca47edc3.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/2c9a61c2-6651-4644-aa62-f72d62d786c5.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/a228fa70-6792-461e-bd5d-c5fc9253ce3a.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/a2caf081-e15c-4302-8bcf-4c4a0be0b204.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/eaa75d1c-aa94-4f44-8213-847cce8f370d.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/91baef2e-a83c-4814-be95-b6e36627d4b8.jpg?im_w=720"
+    ],
+    "hostThumbnail": "https://a0.muscache.com/im/pictures/user/e74b6065-20ed-4b5a-b1d8-d884808579bb.jpg?aki_policy=profile_x_medium",
+
+    "persons": 2,
+    "reviewsCount": 178,
+    "rating": 4.8,
+    "type": "Home",
     "userId": 215178674,
     "address": "Berlin, Berlin, Germany",
     "price": {
@@ -152,10 +204,7 @@
       "https://a0.muscache.com/im/pictures/bf76887d-6bb0-425f-98e2-2540293de034.jpg?im_w=720"
     ],
     "hostThumbnail": "https://a0.muscache.com/im/pictures/user/c1be812f-94ef-472a-bda9-d9f4b023d7be.jpg?aki_policy=profile_x_medium",
-    "isSuperhost": false,
-    "rareFind": false,
-    "lat": 52.50893,
-    "lng": 13.38818,
+
     "persons": 2,
     "reviewsCount": 1108,
     "rating": 4.57,
@@ -187,10 +236,7 @@
       "https://a0.muscache.com/im/pictures/miso/Hosting-927549849154913970/original/ea636e6c-1b59-480a-a3b1-fad6b87cc927.jpeg?im_w=720"
     ],
     "hostThumbnail": "https://a0.muscache.com/im/pictures/user/1f657109-a682-4a16-ae19-dc6a489cd013.jpg?aki_policy=profile_x_medium",
-    "isSuperhost": false,
-    "rareFind": false,
-    "lat": 52.496513,
-    "lng": 13.3478551,
+
     "persons": 2,
     "reviewsCount": 253,
     "rating": 4.53,
@@ -222,10 +268,7 @@
       "https://a0.muscache.com/im/pictures/miso/Hosting-1067457802464449449/original/94a6c74f-2098-41e9-af1a-2fae1d37d5e1.jpeg?im_w=720"
     ],
     "hostThumbnail": "https://a0.muscache.com/im/pictures/user/User-52948391/original/dd31a327-85fa-49a3-b726-6d35d2e4f477.jpeg?aki_policy=profile_x_medium",
-    "isSuperhost": true,
-    "rareFind": false,
-    "lat": 52.48398,
-    "lng": 13.35386,
+
     "persons": 2,
     "reviewsCount": 56,
     "rating": 4.95,
@@ -261,10 +304,7 @@
       "https://a0.muscache.com/im/pictures/miso/Hosting-44223601/original/dd1bcc5c-0bf2-4b4e-9b32-a07826457258.jpeg?im_w=720"
     ],
     "hostThumbnail": "https://a0.muscache.com/im/pictures/user/f15e6954-c9c9-40c1-b6bc-0f21d30a7e8c.jpg?aki_policy=profile_x_medium",
-    "isSuperhost": true,
-    "rareFind": false,
-    "lat": 52.49915,
-    "lng": 13.33466,
+
     "persons": 3,
     "reviewsCount": 601,
     "rating": 4.81,
@@ -299,10 +339,7 @@
       "https://a0.muscache.com/im/pictures/airflow/Hosting-833080845940201182/original/1e2cf0f7-bdac-4562-a203-078c0cfc70d6.jpg?im_w=720"
     ],
     "hostThumbnail": "https://a0.muscache.com/im/pictures/user/ed425346-cee1-4826-b2ec-97b4da56b825.jpg?aki_policy=profile_x_medium",
-    "isSuperhost": true,
-    "rareFind": false,
-    "lat": 52.49134,
-    "lng": 13.33362,
+
     "persons": 1,
     "reviewsCount": 54,
     "rating": 4.87,
@@ -336,10 +373,7 @@
       "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1120133598974304854/original/0d3ab540-6d15-40d1-9321-77203dbe8c18.jpeg?im_w=720"
     ],
     "hostThumbnail": "https://a0.muscache.com/im/pictures/user/User-568852511/original/68f5a467-6ad3-437b-89e2-f6060b38d36a.jpeg?aki_policy=profile_x_medium",
-    "isSuperhost": false,
-    "rareFind": false,
-    "lat": 52.4968697,
-    "lng": 13.3216371,
+
     "persons": 2,
     "reviewsCount": 99,
     "rating": 4.65,
@@ -375,10 +409,7 @@
       "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTExMTU2NzEzMjcxNTEzMTAzMw%3D%3D/original/d8952c26-1bab-4708-8769-c10850d1622b.jpeg?im_w=720"
     ],
     "hostThumbnail": "https://a0.muscache.com/im/pictures/user/User-9852586/original/dd84cc41-55d5-4647-bdf8-e14bb70cd4c3.jpeg?aki_policy=profile_x_medium",
-    "isSuperhost": true,
-    "rareFind": false,
-    "lat": 52.4847759,
-    "lng": 13.3542221,
+
     "persons": 4,
     "reviewsCount": 40,
     "rating": 4.95,
@@ -411,10 +442,7 @@
       "https://a0.muscache.com/im/pictures/hosting/Hosting-675361851173038813/original/c654df7d-10e1-44cf-be56-f00118f41af5.jpeg?im_w=720"
     ],
     "hostThumbnail": "https://a0.muscache.com/im/pictures/user/35185395-4c1e-40e9-9b4a-68367c55cb96.jpg?aki_policy=profile_x_medium",
-    "isSuperhost": false,
-    "rareFind": false,
-    "lat": 52.50314239999999,
-    "lng": 13.3111203,
+
     "persons": 3,
     "reviewsCount": 100,
     "rating": 4.62,
@@ -452,10 +480,7 @@
       "https://a0.muscache.com/im/pictures/miso/Hosting-935188267169193699/original/9f6143db-c20b-4a2a-9a3d-ce6c976f4eaf.jpeg?im_w=720"
     ],
     "hostThumbnail": "https://a0.muscache.com/im/users/2654722/profile_pic/1369927155/original.jpg?aki_policy=profile_x_medium",
-    "isSuperhost": true,
-    "rareFind": false,
-    "lat": 52.50081,
-    "lng": 13.36509,
+
     "persons": 4,
     "reviewsCount": 52,
     "rating": 4.94,
@@ -489,10 +514,7 @@
       "https://a0.muscache.com/im/pictures/miso/Hosting-1028964485008042189/original/d6a9a2ee-5485-4bf5-af68-5515d9b2af41.jpeg?im_w=720"
     ],
     "hostThumbnail": "https://a0.muscache.com/im/pictures/user/User-547224886/original/0e34f3f1-38c4-4d99-9b33-2d35812ad6e8.jpeg?aki_policy=profile_x_medium",
-    "isSuperhost": true,
-    "rareFind": false,
-    "lat": 52.48947,
-    "lng": 13.36167,
+
     "persons": 1,
     "reviewsCount": 83,
     "rating": 4.83,
@@ -527,10 +549,7 @@
       "https://a0.muscache.com/im/pictures/6e889a1b-6028-4e37-ab13-8882e816b023.jpg?im_w=720"
     ],
     "hostThumbnail": "https://a0.muscache.com/im/pictures/user/User-439647721/original/d8a42313-7ac5-4981-b989-9ab26a7a7d73.jpeg?aki_policy=profile_x_medium",
-    "isSuperhost": true,
-    "rareFind": false,
-    "lat": 52.49459328193652,
-    "lng": 13.31318635493517,
+
     "persons": 2,
     "reviewsCount": 28,
     "rating": 4.89,
@@ -565,10 +584,7 @@
       "https://a0.muscache.com/im/pictures/4c80cedf-7860-4fbc-997c-c6acac14b058.jpg?im_w=720"
     ],
     "hostThumbnail": "https://a0.muscache.com/im/pictures/user/ba6be34e-5480-4f74-806f-a0bbb233f7da.jpg?aki_policy=profile_x_medium",
-    "isSuperhost": true,
-    "rareFind": false,
-    "lat": 52.4991,
-    "lng": 13.32251,
+
     "persons": 4,
     "reviewsCount": 210,
     "rating": 4.9,
@@ -603,10 +619,7 @@
       "https://a0.muscache.com/im/pictures/hosting/Hosting-1028233458536518838/original/8acc0b2c-4a56-40c5-8119-775e73e5b225.jpeg?im_w=720"
     ],
     "hostThumbnail": "https://a0.muscache.com/im/pictures/user/User-547224886/original/0e34f3f1-38c4-4d99-9b33-2d35812ad6e8.jpeg?aki_policy=profile_x_medium",
-    "isSuperhost": true,
-    "rareFind": false,
-    "lat": 52.48946979138903,
-    "lng": 13.361206730786341,
+
     "persons": 2,
     "reviewsCount": 86,
     "rating": 4.81,
@@ -641,10 +654,7 @@
       "https://a0.muscache.com/im/pictures/miso/Hosting-45854967/original/9858bdf6-99fc-426a-832c-9358a900b12c.jpeg?im_w=720"
     ],
     "hostThumbnail": "https://a0.muscache.com/im/pictures/user/7610ee97-6805-484f-ab0f-cfa8e4b6f677.jpg?aki_policy=profile_x_medium",
-    "isSuperhost": false,
-    "rareFind": false,
-    "lat": 52.50308,
-    "lng": 13.33521,
+
     "persons": 9,
     "reviewsCount": 122,
     "rating": 4.35,
@@ -676,10 +686,7 @@
       "https://a0.muscache.com/im/pictures/f555d1ec-a10c-45db-baf0-99098f906311.jpg?im_w=720"
     ],
     "hostThumbnail": "https://a0.muscache.com/im/pictures/user/a03541ac-eac2-40c3-9671-b342aed4eab0.jpg?aki_policy=profile_x_medium",
-    "isSuperhost": true,
-    "rareFind": false,
-    "lat": 52.46835,
-    "lng": 13.33463,
+
     "persons": 1,
     "reviewsCount": 193,
     "rating": 4.72,
@@ -715,10 +722,7 @@
       "https://a0.muscache.com/im/pictures/4fe6a2d0-0615-4ed1-9dff-ca7ccc72da67.jpg?im_w=720"
     ],
     "hostThumbnail": "https://a0.muscache.com/im/pictures/user/19b02e83-cce2-4f9a-a0ff-2b781eed45ce.jpg?aki_policy=profile_x_medium",
-    "isSuperhost": true,
-    "rareFind": false,
-    "lat": 52.46545,
-    "lng": 13.32632,
+
     "persons": 2,
     "reviewsCount": 71,
     "rating": 4.82,
@@ -749,10 +753,7 @@
       "https://a0.muscache.com/im/pictures/miso/Hosting-48987728/original/12f89353-3944-4c9f-9713-57993ad41f16.jpeg?im_w=720"
     ],
     "hostThumbnail": "https://a0.muscache.com/im/pictures/user/ed425346-cee1-4826-b2ec-97b4da56b825.jpg?aki_policy=profile_x_medium",
-    "isSuperhost": true,
-    "rareFind": false,
-    "lat": 52.48971,
-    "lng": 13.33524,
+
     "persons": 2,
     "reviewsCount": 112,
     "rating": 4.74,
@@ -789,10 +790,7 @@
       "https://a0.muscache.com/im/pictures/miso/Hosting-945370095384488800/original/5164def7-f41d-4531-8167-59a78fccdbd7.jpeg?im_w=720"
     ],
     "hostThumbnail": "https://a0.muscache.com/im/pictures/user/0b5b504b-a884-41ac-ac2c-2700385f50a4.jpg?aki_policy=profile_x_medium",
-    "isSuperhost": false,
-    "rareFind": false,
-    "lat": 52.50092,
-    "lng": 13.3872948,
+
     "persons": 2,
     "reviewsCount": 35,
     "rating": 4.66,
@@ -823,10 +821,7 @@
       "https://a0.muscache.com/im/pictures/miso/Hosting-1195676775216661163/original/14017e31-571b-41ed-8f76-d9f300dbc865.jpeg?im_w=720"
     ],
     "hostThumbnail": "https://a0.muscache.com/im/pictures/user/438537a7-d553-40a4-9a29-8f38f1af5341.jpg?aki_policy=profile_x_medium",
-    "isSuperhost": false,
-    "rareFind": false,
-    "lat": 52.454984288296814,
-    "lng": 13.321817857504692,
+
     "persons": 2,
     "reviewsCount": 6,
     "rating": 4.83,
@@ -863,10 +858,7 @@
       "https://a0.muscache.com/im/pictures/88cdbd29-c4ef-4d3b-84d5-7a569120b701.jpg?im_w=720"
     ],
     "hostThumbnail": "https://a0.muscache.com/im/pictures/user/e74b6065-20ed-4b5a-b1d8-d884808579bb.jpg?aki_policy=profile_x_medium",
-    "isSuperhost": true,
-    "rareFind": false,
-    "lat": 52.49379,
-    "lng": 13.36134,
+
     "persons": 2,
     "reviewsCount": 526,
     "rating": 4.73,
@@ -900,10 +892,7 @@
       "https://a0.muscache.com/im/pictures/miso/Hosting-46080792/original/ad856fe4-a7b9-4146-a2c6-cb331433c141.jpeg?im_w=720"
     ],
     "hostThumbnail": "https://a0.muscache.com/im/pictures/user/12a0b72f-7ade-4fac-a0fa-5d8435edaac1.jpg?aki_policy=profile_x_medium",
-    "isSuperhost": false,
-    "rareFind": false,
-    "lat": 52.49867,
-    "lng": 13.34014,
+
     "persons": 1,
     "reviewsCount": 72,
     "rating": 4.49,
@@ -939,10 +928,7 @@
       "https://a0.muscache.com/im/pictures/prohost-api/Hosting-731809279716237058/original/5d7000c5-2331-4b65-ac7d-c342999dcff9.jpeg?im_w=720"
     ],
     "hostThumbnail": "https://a0.muscache.com/im/pictures/user/0b5b504b-a884-41ac-ac2c-2700385f50a4.jpg?aki_policy=profile_x_medium",
-    "isSuperhost": false,
-    "rareFind": false,
-    "lat": 52.464195,
-    "lng": 13.384416,
+
     "persons": 1,
     "reviewsCount": 83,
     "rating": 4.72,
@@ -973,10 +959,7 @@
       "https://a0.muscache.com/im/pictures/bbac8e60-11ad-479a-a824-db3491c48da8.jpg?im_w=720"
     ],
     "hostThumbnail": "https://a0.muscache.com/im/pictures/user/ba6be34e-5480-4f74-806f-a0bbb233f7da.jpg?aki_policy=profile_x_medium",
-    "isSuperhost": true,
-    "rareFind": false,
-    "lat": 52.49831,
-    "lng": 13.32181,
+
     "persons": 4,
     "reviewsCount": 202,
     "rating": 4.88,
@@ -1014,10 +997,7 @@
       "https://a0.muscache.com/im/pictures/30e4682f-73f2-4c50-ae62-e8a2e4d3c510.jpg?im_w=720"
     ],
     "hostThumbnail": "https://a0.muscache.com/im/users/16320372/profile_pic/1401804451/original.jpg?aki_policy=profile_x_medium",
-    "isSuperhost": true,
-    "rareFind": false,
-    "lat": 52.48632,
-    "lng": 13.35499,
+
     "persons": 2,
     "reviewsCount": 301,
     "rating": 4.86,
@@ -1054,10 +1034,7 @@
       "https://a0.muscache.com/im/pictures/prohost-api/Hosting-731825380030233334/original/58402ec5-b69b-47e5-9f3d-944df7fc14b7.jpeg?im_w=720"
     ],
     "hostThumbnail": "https://a0.muscache.com/im/pictures/user/0b5b504b-a884-41ac-ac2c-2700385f50a4.jpg?aki_policy=profile_x_medium",
-    "isSuperhost": false,
-    "rareFind": false,
-    "lat": 52.464195,
-    "lng": 13.384416,
+
     "persons": 2,
     "reviewsCount": 174,
     "rating": 4.67,
@@ -1090,10 +1067,7 @@
       "https://a0.muscache.com/im/pictures/b5ad2ced-fe16-48d7-b1da-f6d07358c5ce.jpg?im_w=720"
     ],
     "hostThumbnail": "https://a0.muscache.com/im/pictures/user/9bc2fca4-7c9e-48d5-9f07-5c82d092246e.jpg?aki_policy=profile_x_medium",
-    "isSuperhost": true,
-    "rareFind": false,
-    "lat": 52.49546,
-    "lng": 13.38082,
+
     "persons": 2,
     "reviewsCount": 413,
     "rating": 4.88,
@@ -1130,10 +1104,7 @@
       "https://a0.muscache.com/im/pictures/miso/Hosting-46084713/original/5c05320e-a585-4976-a261-599371046779.jpeg?im_w=720"
     ],
     "hostThumbnail": "https://a0.muscache.com/im/pictures/user/12a0b72f-7ade-4fac-a0fa-5d8435edaac1.jpg?aki_policy=profile_x_medium",
-    "isSuperhost": false,
-    "rareFind": false,
-    "lat": 52.49796,
-    "lng": 13.33997,
+
     "persons": 2,
     "reviewsCount": 68,
     "rating": 4.44,
@@ -1169,10 +1140,7 @@
       "https://a0.muscache.com/im/pictures/81698103/d73bbf1f_original.jpg?im_w=720"
     ],
     "hostThumbnail": "https://a0.muscache.com/im/users/5687919/profile_pic/1364660300/original.jpg?aki_policy=profile_x_medium",
-    "isSuperhost": true,
-    "rareFind": false,
-    "lat": 52.50386,
-    "lng": 13.37007,
+
     "persons": 2,
     "reviewsCount": 506,
     "rating": 4.8,
@@ -1210,10 +1178,7 @@
       "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE4NTM2MjMxNDUzMTYzOTQwOA%3D%3D/original/81013ab8-b7ad-4b0e-8d3b-038cfc310eb3.jpeg?im_w=720"
     ],
     "hostThumbnail": "https://a0.muscache.com/im/pictures/user/0d0adb86-121e-425b-8c4e-121c90490123.jpg?aki_policy=profile_x_medium",
-    "isSuperhost": true,
-    "rareFind": false,
-    "lat": 52.4975442,
-    "lng": 13.3112764,
+
     "persons": 6,
     "reviewsCount": 15,
     "rating": 4.87,
@@ -1249,10 +1214,7 @@
       "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1197652368892223424/original/6d11823a-6252-40bb-beb4-95acdb2f48f7.jpeg?im_w=720"
     ],
     "hostThumbnail": "https://a0.muscache.com/im/pictures/user/d78c3443-b61e-4f9a-9670-5a4fead51d0d.jpg?aki_policy=profile_x_medium",
-    "isSuperhost": false,
-    "rareFind": false,
-    "lat": 52.49815,
-    "lng": 13.3457,
+
     "persons": 2,
     "reviewsCount": 11,
     "rating": 4.73,
@@ -1289,10 +1251,7 @@
       "https://a0.muscache.com/im/pictures/miso/Hosting-1235471973212937900/original/e93f9b22-5c1d-4ad7-854c-a115ee2eae07.jpeg?im_w=720"
     ],
     "hostThumbnail": "https://a0.muscache.com/im/pictures/user/1010de67-0e46-46fc-b8d2-d809cc42017b.jpg?aki_policy=profile_x_medium",
-    "isSuperhost": false,
-    "rareFind": false,
-    "lat": 52.4797985085715,
-    "lng": 13.335559051102855,
+
     "persons": 2,
     "reviewsCount": 0,
     "type": "Room",
@@ -1330,10 +1289,7 @@
       "https://a0.muscache.com/im/pictures/hosting/Hosting-1103178171226396121/original/2d9bb52e-0ac8-466d-84fc-b4472893e172.jpeg?im_w=720"
     ],
     "hostThumbnail": "https://a0.muscache.com/im/pictures/user/User-550548770/original/98dcf589-d5fd-4a67-8c9a-17394c15e082.jpeg?aki_policy=profile_x_medium",
-    "isSuperhost": false,
-    "rareFind": false,
-    "lat": 52.48698721537127,
-    "lng": 13.390770262008456,
+
     "persons": 2,
     "reviewsCount": 9,
     "rating": 4.78,
@@ -1368,10 +1324,7 @@
       "https://a0.muscache.com/im/pictures/hosting/Hosting-1103178171226396121/original/7c060be3-1117-402d-9cf6-4b7fc112de6c.jpeg?im_w=720"
     ],
     "hostThumbnail": "https://a0.muscache.com/im/pictures/user/c1be812f-94ef-472a-bda9-d9f4b023d7be.jpg?aki_policy=profile_x_medium",
-    "isSuperhost": false,
-    "rareFind": false,
-    "lat": 52.5083,
-    "lng": 13.38767,
+
     "persons": 1,
     "reviewsCount": 57,
     "rating": 4.65,
@@ -1404,10 +1357,7 @@
       "https://a0.muscache.com/im/pictures/hosting/Hosting-1158465875723334808/original/9de7f778-789f-4a83-b5d1-24655da637fb.jpeg?im_w=720"
     ],
     "hostThumbnail": "https://a0.muscache.com/im/pictures/user/User-33743388/original/c497166b-dab1-462a-b772-e73ea3fb21c6.jpeg?aki_policy=profile_x_medium",
-    "isSuperhost": false,
-    "rareFind": false,
-    "lat": 52.49456950306291,
-    "lng": 13.400668969238627,
+
     "persons": 2,
     "reviewsCount": 0,
     "type": "Room",
@@ -1442,10 +1392,7 @@
       "https://a0.muscache.com/im/pictures/848b8e74-cbf5-4819-94fe-1e75d37a735c.jpg?im_w=720"
     ],
     "hostThumbnail": "https://a0.muscache.com/im/pictures/user/7610ee97-6805-484f-ab0f-cfa8e4b6f677.jpg?aki_policy=profile_x_medium",
-    "isSuperhost": false,
-    "rareFind": false,
-    "lat": 52.50457,
-    "lng": 13.33391,
+
     "persons": 2,
     "reviewsCount": 56,
     "rating": 4.23,
@@ -1477,10 +1424,7 @@
       "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1130338732311946203/original/3aac20a7-e026-4df8-af18-1670dca56c70.jpeg?im_w=720"
     ],
     "hostThumbnail": "https://a0.muscache.com/im/pictures/user/3d703e63-bbc8-4cb4-b83c-cacf340a02f8.jpg?aki_policy=profile_x_medium",
-    "isSuperhost": true,
-    "rareFind": false,
-    "lat": 52.49901,
-    "lng": 13.33418,
+
     "persons": 2,
     "reviewsCount": 19,
     "rating": 4.95,
@@ -1516,10 +1460,7 @@
       "https://a0.muscache.com/im/pictures/miso/Hosting-43798011/original/0e9cbc2e-3a54-4e17-b711-a50ab30138e0.jpeg?im_w=720"
     ],
     "hostThumbnail": "https://a0.muscache.com/im/pictures/user/03be8f2f-8f3f-4ca0-9a59-d3184bfa50b8.jpg?aki_policy=profile_x_medium",
-    "isSuperhost": false,
-    "rareFind": false,
-    "lat": 52.495548248291016,
-    "lng": 13.396210670471191,
+
     "persons": 2,
     "reviewsCount": 1527,
     "rating": 4.54,
@@ -1551,10 +1492,7 @@
       "https://a0.muscache.com/im/pictures/9ef3b272-e76f-4524-a4d3-771485211b8e.jpg?im_w=720"
     ],
     "hostThumbnail": "https://a0.muscache.com/im/pictures/user/ba6be34e-5480-4f74-806f-a0bbb233f7da.jpg?aki_policy=profile_x_medium",
-    "isSuperhost": true,
-    "rareFind": false,
-    "lat": 52.49598,
-    "lng": 13.32651,
+
     "persons": 4,
     "reviewsCount": 170,
     "rating": 4.86,
