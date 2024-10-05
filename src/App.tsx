@@ -1,5 +1,5 @@
 import Navbar from "./components/navbar/Navbar";
-import Cards from "./components/services/Cards";
+import Cards from "./components/cards/Cards";
 
 const App = () => {
   return (

@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 export const regions = [
   {
     title: "I'm flexible",
@@ -26,13 +28,21 @@ export const regions = [
 ];
 
 const RegionSelector = () => {
+  const [region, setRegion] = useState("");
+
+  const handleRegion = (value: string) => {
+    setRegion(value);
+  };
+
+  console.log(region);
+
   return (
     <div className='absolute top-14 left-0 w-max bg-white p-5 rounded-2xl z-30'>
       <h2 className='font-semibold'>Select region</h2>
 
       <div className='grid grid-cols-3 gap-5 py-5'>
         {regions?.map((region) => (
-          <div>
+          <div key={region.img} onClick={() => handleRegion(region.title)}>
             <img
               className='min-w-28 h-28 border-2 rounded-xl'
               src={region.img}

@@ -1,4 +1,3 @@
-import { BiCategoryAlt } from "react-icons/bi";
 import { GiVillage } from "react-icons/gi";
 import { GiMushroomGills } from "react-icons/gi";
 import { LuView } from "react-icons/lu";
@@ -23,10 +22,6 @@ import { PiParkLight } from "react-icons/pi";
 import { GiMountainCave } from "react-icons/gi";
 
 export const categories = [
-  {
-    label: "Icons",
-    icon: BiCategoryAlt,
-  },
   {
     label: "Countryside",
     icon: GiVillage,

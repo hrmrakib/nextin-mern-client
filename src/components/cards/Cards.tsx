@@ -9,13 +9,13 @@ import queryString from "query-string";
 
 const Cards = () => {
   const location = useLocation();
-  const [serachQuery, setSearchQuery] = useState();
+  const [searchQuery, setSearchQuery] = useState();
 
   const { isPending, error, data, refetch } = useQuery({
     queryKey: ["getCategories"],
     queryFn: async () => {
       const res = await axiosPublic.get("/api/categories", {
-        params: { serachQuery },
+        params: { searchQuery },
       });
       return res.data;
     },
@@ -24,13 +24,12 @@ const Cards = () => {
   // call the "/api/categories" -> when change the filter value
   useEffect(() => {
     refetch();
-  }, [serachQuery]);
+  }, [searchQuery]);
 
-  //
+  // get category search value from url (?category=Countryside)
   useEffect(() => {
     const parsedString = queryString.parse(location.search);
     setSearchQuery(parsedString.category);
-    console.log(serachQuery);
   }, [location.search]);
 
   if (isPending) return <RoatingLine />;

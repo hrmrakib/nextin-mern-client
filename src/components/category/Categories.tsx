@@ -5,8 +5,14 @@ import { useRef, useState, useEffect } from "react";
 import { IoIosArrowForward, IoIosArrowBack } from "react-icons/io";
 import FilterForm from "../filterElements/FilterForm";
 import SwitchBtn from "../switch/SwitchButton";
+import { Link, useLocation } from "react-router-dom";
+import { BiCategoryAlt } from "react-icons/bi";
+import queryString from "query-string";
 
 const Categories = () => {
+  const location = useLocation();
+  const [serachQuery, setSearchQuery] = useState();
+
   const scrollRef = useRef<HTMLDivElement>(null);
   const [showLeftButton, setShowLeftButton] = useState(false);
   const [showRightButton, setShowRightButton] = useState(true);
@@ -64,13 +70,23 @@ const Categories = () => {
     };
   }, []);
 
+  // get category search value from url (?category=Countryside)
+  useEffect(() => {
+    const parsedString = queryString.parse(location.search);
+    setSearchQuery(parsedString.category);
+  }, [location.search]);
+
   return (
     <Container>
       <div className='flex items-center gap-5'>
-        <div className='relative lg:w-[65%] md:w-full z-10'>
+        <div
+          className={`relative ${
+            serachQuery && "lg:w-[calc(100%-400px)]"
+          } md:w-full z-10`}
+        >
           {showLeftButton && (
             <button
-              className='absolute left-0 top-1/2 transform -translate-y-1/2 bg-white text-gray-800 px-2 py-2 z-10 border rounded-full shadow-sm'
+              className='absolute -left-1 top-1/2 transform -translate-y-1/2 bg-white text-gray-800 px-2 py-2 z-10 border rounded-full shadow-sm'
               onClick={() => {
                 handleScroll("left");
               }}
@@ -80,8 +96,17 @@ const Categories = () => {
           )}
           <div
             ref={scrollRef}
-            className='pt-4 px-3 flex flex-row items-center justify-between gap-3 overflow-x-scroll scrollbar-none'
+            className='mx-2 pt-4 px-3 flex flex-row items-center justify-between gap-3 overflow-x-scroll scrollbar-none'
           >
+            <Link
+              to={"/"}
+              className='flex flex-col items-center justify-between gap-2 p-3 text-neutral-500 hover:text-neutral-800 transition cursor-pointer'
+            >
+              <BiCategoryAlt size={25} />
+              <p className='font-medium text-sm text-center whitespace-nowrap w-full'>
+                Icon
+              </p>
+            </Link>
             {categories?.map((category) => (
               <CategoryBox
                 key={category.label}
@@ -93,7 +118,7 @@ const Categories = () => {
           </div>
           {showRightButton && (
             <button
-              className='absolute right-0 top-1/2 transform -translate-y-1/2 bg-white text-gray-800 px-2 py-2 z-10 border rounded-full shadow-sm'
+              className='absolute -right-1 top-1/2 transform -translate-y-1/2 bg-white text-gray-800 px-2 py-2 z-10 border rounded-full shadow-sm'
               onClick={() => {
                 handleScroll("right");
               }}
@@ -103,14 +128,16 @@ const Categories = () => {
           )}
         </div>
 
-        <>
-          <FilterForm />
+        {serachQuery && (
+          <div className='w-[375px] flex items-center gap-3'>
+            <FilterForm />
 
-          <div className='w-max flex items-center gap-2.5 px-4 py-3 text-gray-900 border border-gray-300 rounded-xl'>
-            <p>Display total before taxes</p>
-            <SwitchBtn />
+            <div className='w-max flex items-center gap-2.5 pl-4 py-3 text-gray-900 border border-gray-300 rounded-xl'>
+              <p>Display total before taxes</p>
+              <SwitchBtn />
+            </div>
           </div>
-        </>
+        )}
       </div>
     </Container>
   );

@@ -1,14 +1,83 @@
-import { useState } from "react";
+import * as React from "react";
+import Slider from "@mui/material/Slider";
+import RoomAndBed from "./RoomAndBed";
+import { useEffect, useState } from "react";
 import FilterModal from "./FilterModal";
-import TypeTabs from "./TypeTab";
-import PriceRange from "./PriceRange";
-import { FaMinus } from "react-icons/fa6";
-import { FaPlus } from "react-icons/fa6";
 import Amenities from "./Amenities";
 import { HiOutlineAdjustmentsHorizontal } from "react-icons/hi2";
+import { useQuery } from "@tanstack/react-query";
+import { axiosPublic } from "../../hooks/useAxiosPublic";
+import Box from "@mui/material/Box";
+import Tab from "@mui/material/Tab";
+import TabContext from "@mui/lab/TabContext";
+import TabList from "@mui/lab/TabList";
+import { useLocation } from "react-router-dom";
+import queryString from "query-string";
 
+const styles = {
+  color: "black",
+  width: "33%",
+  fontWeight: "500",
+  textTransform: "capitalize",
+  borderRight: "1px",
+  borderColor: "black",
+};
+
+function valuetext(value: number) {
+  return `${value}`;
+}
 const FilterForm = () => {
+  const location = useLocation();
+  const [searchQuery, setSearchQuery] = useState();
+  const [value, setValue] = useState("any");
   const [isModalOpen, setModalOpen] = useState(false);
+
+  const handleChange = (event: React.SyntheticEvent, newValue: string) => {
+    setValue(newValue);
+  };
+
+  const { isPending, error, data, refetch } = useQuery({
+    queryKey: ["filter"],
+    queryFn: async () => {
+      const res = await axiosPublic.get("/api/type-of-place", {
+        params: {
+          searchQuery,
+          type: value || "any",
+        },
+      });
+      return res.data;
+    },
+  });
+
+  // use here for hoisting issue
+  const [price, setPrice] = React.useState<number[]>([
+    data?.findMinMaxPrice[0]?.minRate || 200,
+    data?.findMinMaxPrice[0]?.maxRate || 800,
+  ]);
+
+  const handlePriceChange = (event: Event, newValue: number | number[]) => {
+    setPrice(newValue as number[]);
+  };
+
+  // get category search value from url (?category=Countryside)
+  useEffect(() => {
+    const parsedString = queryString.parse(location.search);
+    setSearchQuery(parsedString.category);
+  }, [location.search]);
+
+  // call again and again "/api/type-of-place" -> when change the place type tab
+  useEffect(() => {
+    refetch();
+    handlePriceChange(event, [
+      data?.findMinMaxPrice[0]?.minRate,
+      data?.findMinMaxPrice[0]?.maxRate,
+    ]);
+  }, [value]);
+
+  console.log(
+    data?.findMinMaxPrice[0]?.minRate,
+    data?.findMinMaxPrice[0]?.maxRate
+  );
 
   return (
     <div className='h-full flex items-center justify-center'>
@@ -28,7 +97,30 @@ const FilterForm = () => {
           <div className='h-[66vh] overflow-y-scroll px-6 py-6'>
             <h2 className='font-semibold text-lg mb-3'>Type of place</h2>
 
-            <TypeTabs />
+            <Box
+              sx={{ width: "100%", typography: "body1", borderBottom: "1px" }}
+            >
+              <TabContext value={value}>
+                <Box
+                  sx={{
+                    border: 1,
+                    borderRadius: "12px",
+                    borderColor: "divider",
+                  }}
+                >
+                  <TabList
+                    onChange={handleChange}
+                    aria-label='lab API tabs example'
+                    sx={{ width: "100%" }}
+                  >
+                    <Tab sx={styles} label='Any Type' value='any' />
+                    <Tab sx={styles} label='Room' value='Room' />
+                    <Tab sx={styles} label='Entire Home' value='Home' />
+                  </TabList>
+                </Box>
+              </TabContext>
+            </Box>
+
             {/* price range */}
             <div className='mt-6'>
               <h2 className='font-semibold text-lg mb-1'>Price range</h2>
@@ -36,82 +128,47 @@ const FilterForm = () => {
                 Nightly prices before fees and taxes
               </p>
 
-              <PriceRange />
-
+              <Box sx={{ width: "100%" }}>
+                <Slider
+                  getAriaLabel={() => "Price range"}
+                  value={price}
+                  onChange={handlePriceChange}
+                  valueLabelDisplay='auto'
+                  getAriaValueText={valuetext}
+                  min={5}
+                  max={800}
+                />
+              </Box>
               <div className='flex items-center justify-between'>
                 <div>
                   <p className='text-sm text-gray-700 mb-2'>Minimum</p>
-                  <p className='w-max border px-5 py-3 rounded-3xl'>$24</p>
+                  <p className='w-max border px-5 py-3 rounded-3xl'>
+                    $
+                    {(data?.findMinMaxPrice[0] &&
+                      data?.findMinMaxPrice[0]?.minRate) ||
+                      "00"}
+                  </p>
                 </div>
                 <div>
                   <p className='text-sm text-gray-700 mb-2'>Maximum</p>
-                  <p className='w-max border px-5 py-3 rounded-3xl'>$94</p>
+                  <p className='w-max border px-5 py-3 rounded-3xl'>
+                    $
+                    {(data?.findMinMaxPrice[0] &&
+                      data?.findMinMaxPrice[0]?.maxRate) ||
+                      "00"}
+                  </p>
                 </div>
               </div>
+
+              {data && data?.typeOfPlace.length <= 1 ? (
+                <p className='text-sm text-gray-700 text-center'>
+                  I found one result so it hasn't min/max price
+                </p>
+              ) : null}
             </div>
 
             {/* Rooms and beds */}
-            <div className='mt-10'>
-              <h2 className='text-lg font-semibold'>Rooms and beds</h2>
-
-              <div className='mt-5 flex flex-col gap-6'>
-                <div className='flex items-center justify-between'>
-                  <h3>Bedrooms</h3>
-                  <div className='flex items-center gap-4'>
-                    <button
-                      disabled={true}
-                      className='border-2 p-1.5 hover:bg-gray-100 rounded-full cursor-pointer'
-                    >
-                      <FaMinus className='text-gray-500 text-sm' />
-                    </button>
-                    <p>Any</p>
-                    <button
-                      disabled={true}
-                      className='border-2 p-1.5 hover:bg-gray-100 rounded-full cursor-pointer'
-                    >
-                      <FaPlus className='text-gray-500 text-sm' />
-                    </button>
-                  </div>
-                </div>
-
-                <div className='flex items-center justify-between'>
-                  <h3>Beds</h3>
-                  <div className='flex items-center gap-4'>
-                    <button
-                      disabled={true}
-                      className='border-2 p-1.5 hover:bg-gray-100 rounded-full cursor-pointer'
-                    >
-                      <FaMinus className='text-gray-500 text-sm' />
-                    </button>
-                    <p>Any</p>
-                    <button
-                      disabled={true}
-                      className='border-2 p-1.5 hover:bg-gray-100 rounded-full cursor-pointer'
-                    >
-                      <FaPlus className='text-gray-500 text-sm' />
-                    </button>
-                  </div>
-                </div>
-                <div className='flex items-center justify-between'>
-                  <h3>Bathrooms</h3>
-                  <div className='flex items-center gap-4'>
-                    <button
-                      disabled={true}
-                      className='border-2 p-1.5 hover:bg-gray-100 rounded-full cursor-pointer'
-                    >
-                      <FaMinus className='text-gray-500 text-sm' />
-                    </button>
-                    <p>Any</p>
-                    <button
-                      disabled={true}
-                      className='border-2 p-1.5 hover:bg-gray-100 rounded-full cursor-pointer'
-                    >
-                      <FaPlus className='text-gray-500 text-sm' />
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <RoomAndBed />
 
             {/* Amenities */}
             <Amenities />
@@ -121,8 +178,12 @@ const FilterForm = () => {
             <button className='hover:bg-gray-100 text-gray-800 font-semibold px-2.5 py-1.5 duration-50 rounded'>
               Clear all
             </button>
-            <button className='bg-black text-white px-3 py-2 rounded'>
-              Show 33 result
+            <button
+              onClick={() => {}} // send data
+              disabled={data && data.typeOfPlace.length === 0}
+              className='bg-black text-white px-3 py-2 rounded'
+            >
+              Show {(data && data.typeOfPlace.length) || "0"} places
             </button>
           </div>
         </div>
