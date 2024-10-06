@@ -4,7 +4,7 @@ import { addDays } from "date-fns";
 import "react-date-range/dist/styles.css"; // main css file
 import "react-date-range/dist/theme/default.css"; // theme css file
 
-const DateRangeSelector = () => {
+const DateRangeSelector = ({ sendCheckDate }) => {
   const [state, setState] = useState([
     {
       startDate: new Date(),
@@ -16,6 +16,7 @@ const DateRangeSelector = () => {
   const handleSelect = (ranges) => {
     console.log(ranges.selection);
     setState([ranges.selection]);
+    sendCheckDate(ranges.selection);
   };
 
   return (
@@ -28,10 +29,6 @@ const DateRangeSelector = () => {
         ranges={state}
         direction='horizontal'
       />
-      {/* <div>
-        <p>Start Date: {state[0].startDate.toDateString()}</p>
-        <p>End Date: {state[0].endDate.toDateString()}</p>
-      </div> */}
     </div>
   );
 };

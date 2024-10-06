@@ -1,5 +1,3 @@
-import { useState } from "react";
-
 const regions = [
   {
     title: "I'm flexible",
@@ -27,13 +25,10 @@ const regions = [
   },
 ];
 
-const RegionSelector = () => {
-  const [region, setRegion] = useState("");
-
+const RegionSelector = ({ sendRegionData }) => {
   const handleRegion = (value: string) => {
-    setRegion(value);
+    sendRegionData(value);
   };
-
 
   return (
     <div className='absolute top-14 left-0 w-max bg-white p-5 rounded-2xl z-30'>

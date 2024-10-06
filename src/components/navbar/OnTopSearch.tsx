@@ -1,6 +1,6 @@
 import { IoSearchSharp } from "react-icons/io5";
 import RegionSelector from "../modals/RegionSelector";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import AddGuestModal from "../modals/AddGuestModal";
 import DateRangeSelector from "../modals/DateRangePicker";
 
@@ -10,6 +10,31 @@ const OnTopSearch = () => {
   const [openDateRangeIn, setOpenDateRangeIn] = useState(false);
   const [openDateRangeOut, setOpenDateRangeOut] = useState(false);
   // const regionRef = useRef(null);
+
+  const [region, setRegion] = useState("");
+  const [checkIn, setCheckIn] = useState("");
+  const [checkOut, setCheckOut] = useState("");
+  const [checkDate, setCheckDate] = useState("");
+
+  // const formatDate = (date) => {
+  //   return date.toDateString().split(" ").slice(1, 3).join(" ");
+  // };
+
+  // useEffect(() => {
+  //   if (checkDate) {
+  //     setCheckIn(formatDate(checkDate.startDate));
+  //     setCheckOut(formatDate(checkDate.endDate));
+  //   }
+  // }, [checkDate]);
+
+  const [searchValue, setSearchValue] = useState({
+    guests: {
+      adult: 0,
+      children: 0,
+      infants: 0,
+      pets: 0,
+    },
+  });
 
   const toggleRegionModal = () => {
     setOpenRegion(!openRegion);
@@ -52,6 +77,12 @@ const OnTopSearch = () => {
   //   };
   // }, [openRegion, openGuest, openDateRangeIn, openDateRangeOut]);
 
+  // console.log(region);
+
+  // console.log(checkIn, checkOut);
+
+  console.log(checkIn, checkOut);
+
   return (
     <div className='flex flex-col duration-700 ease-in-out transform transition-opacity z-30'>
       <div className='flex items-center justify-center gap-5'>
@@ -70,11 +101,13 @@ const OnTopSearch = () => {
           >
             <h3>Where</h3>
             <input
+              value={region}
+              onChange={() => setRegion(region)}
               className='text-sm text-gray-500 bg-transparent border-none outline-none focus:outline-none'
               placeholder='Search distination'
             />
 
-            {openRegion && <RegionSelector />}
+            {openRegion && <RegionSelector sendRegionData={setRegion} />}
           </div>
 
           <div
@@ -82,9 +115,17 @@ const OnTopSearch = () => {
             className='relative text-sm font-semibold py-2 pl-6 pr-16 border-r hover:border-transparent hover:bg-neutral-100 hover:rounded-3xl cursor-pointer'
           >
             <h3>Check in</h3>
+            {/* <input
+              value={checkIn}
+              onChange={() => setRegion(checkIn)}
+              className='w-max text-sm text-gray-500 bg-transparent border-none outline-none focus:outline-none'
+              placeholder='Add dates'
+            /> */}
             <p className='text-sm text-gray-500'>Add dates</p>
 
-            {openDateRangeIn && <DateRangeSelector />}
+            {openDateRangeIn && (
+              <DateRangeSelector sendCheckDate={setCheckDate} />
+            )}
           </div>
 
           <div
@@ -92,9 +133,17 @@ const OnTopSearch = () => {
             className='relative text-sm font-semibold py-2 pl-6 pr-16 border-r hover:border-transparent hover:bg-neutral-100 hover:rounded-3xl cursor-pointer'
           >
             <h3>Check out</h3>
+            {/* <input
+              value={region}
+              onChange={() => setRegion(region)}
+              className='w-max text-sm text-gray-500 bg-transparent border-none outline-none focus:outline-none'
+              placeholder='Add dates'
+            /> */}
             <p className='text-sm text-gray-500'>Add dates</p>
 
-            {openDateRangeOut && <DateRangeSelector />}
+            {openDateRangeOut && (
+              <DateRangeSelector sendCheckDate={setCheckDate} />
+            )}
           </div>
 
           <div
