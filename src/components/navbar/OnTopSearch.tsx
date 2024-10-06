@@ -12,22 +12,37 @@ const OnTopSearch = () => {
   // const regionRef = useRef(null);
 
   const [region, setRegion] = useState("");
+  const [isRegion, setIsRegion] = useState("");
   const [checkIn, setCheckIn] = useState("");
   const [checkOut, setCheckOut] = useState("");
   const [checkDate, setCheckDate] = useState("");
 
-  // const formatDate = (date) => {
-  //   return date.toDateString().split(" ").slice(1, 3).join(" ");
-  // };
+  const formatDate = (date) => {
+    return date.toDateString().split(" ").slice(1, 3).join(" ");
+  };
 
-  // useEffect(() => {
-  //   if (checkDate) {
-  //     setCheckIn(formatDate(checkDate.startDate));
-  //     setCheckOut(formatDate(checkDate.endDate));
-  //   }
-  // }, [checkDate]);
+  useEffect(() => {
+    setIsRegion(region);
+  }, [region]);
 
-  const [searchValue, setSearchValue] = useState({
+  useEffect(() => {
+    setOpenDateRangeIn((prev) => !prev);
+  }, [checkIn]);
+
+  useEffect(() => {
+    setOpenDateRangeOut((prev) => !prev);
+  }, [checkOut]);
+
+  console.log(checkIn, checkOut);
+
+  useEffect(() => {
+    if (checkDate) {
+      setCheckIn(formatDate(checkDate.startDate));
+      setCheckOut(formatDate(checkDate.endDate));
+    }
+  }, [checkDate]);
+
+  const [guests, setGuests] = useState({
     guests: {
       adult: 0,
       children: 0,
@@ -40,9 +55,14 @@ const OnTopSearch = () => {
     setOpenRegion(!openRegion);
   };
   const toggleDateRangeIn = () => {
-    setOpenDateRangeIn(!openDateRangeIn);
+    setIsRegion("");
+    setTimeout(() => {
+      // setOpenDateRangeIn((prev) => !prev);
+      setOpenDateRangeIn(!openDateRangeIn);
+    }, 5);
   };
   const toggleDateRangeOut = () => {
+    setIsRegion("");
     setOpenDateRangeOut(!openDateRangeOut);
   };
   const toggleGuestModal = () => {
@@ -77,12 +97,6 @@ const OnTopSearch = () => {
   //   };
   // }, [openRegion, openGuest, openDateRangeIn, openDateRangeOut]);
 
-  // console.log(region);
-
-  // console.log(checkIn, checkOut);
-
-  console.log(checkIn, checkOut);
-
   return (
     <div className='flex flex-col duration-700 ease-in-out transform transition-opacity z-30'>
       <div className='flex items-center justify-center gap-5'>
@@ -110,55 +124,56 @@ const OnTopSearch = () => {
             {openRegion && <RegionSelector sendRegionData={setRegion} />}
           </div>
 
-          <div
-            onClick={toggleDateRangeIn}
-            className='relative text-sm font-semibold py-2 pl-6 pr-16 border-r hover:border-transparent hover:bg-neutral-100 hover:rounded-3xl cursor-pointer'
-          >
-            <h3>Check in</h3>
-            {/* <input
-              value={checkIn}
-              onChange={() => setRegion(checkIn)}
-              className='w-max text-sm text-gray-500 bg-transparent border-none outline-none focus:outline-none'
-              placeholder='Add dates'
-            /> */}
-            <p className='text-sm text-gray-500'>Add dates</p>
+          <div className='relative text-sm font-semibold py-2 pl-6 pr-16 border-r hover:border-transparent hover:bg-neutral-100 hover:rounded-3xl cursor-pointer'>
+            <div onClick={toggleDateRangeIn} className='flex flex-col'>
+              <h3 className='w-[100px]'>Check in</h3>
 
+              <p className='text-sm text-gray-500'>{checkIn || "Add dates"}</p>
+            </div>
+            {isRegion && <DateRangeSelector sendCheckDate={setCheckDate} />}
             {openDateRangeIn && (
               <DateRangeSelector sendCheckDate={setCheckDate} />
             )}
           </div>
 
-          <div
-            onClick={toggleDateRangeOut}
-            className='relative text-sm font-semibold py-2 pl-6 pr-16 border-r hover:border-transparent hover:bg-neutral-100 hover:rounded-3xl cursor-pointer'
-          >
-            <h3>Check out</h3>
-            {/* <input
-              value={region}
-              onChange={() => setRegion(region)}
-              className='w-max text-sm text-gray-500 bg-transparent border-none outline-none focus:outline-none'
-              placeholder='Add dates'
-            /> */}
-            <p className='text-sm text-gray-500'>Add dates</p>
+          <div className='relative text-sm font-semibold py-2 pl-6 pr-16 border-r hover:border-transparent hover:bg-neutral-100 hover:rounded-3xl cursor-pointer'>
+            <div onClick={toggleDateRangeOut} className='flex flex-col'>
+              <h3 className='w-[100px]'>Check out</h3>
 
+              <p className='text-sm text-gray-500'>{checkOut || "Add dates"}</p>
+            </div>
             {openDateRangeOut && (
               <DateRangeSelector sendCheckDate={setCheckDate} />
             )}
           </div>
 
-          <div
-            onClick={toggleGuestModal}
-            className='relative flex items-center pr-3 hover:bg-neutral-100 hover:rounded-3xl cursor-pointer'
-          >
-            <div className='text-sm font-semibold py-2 pl-6 pr-20'>
-              <h3>Who</h3>
-              <p className='text-sm text-gray-500'>Add guests</p>
+          <div className='relative flex items-center pr-3 hover:bg-neutral-100 hover:rounded-3xl cursor-pointer'>
+            <div onClick={toggleGuestModal}>
+              <div
+                className={`text-sm font-semibold py-2 pl-6 ${
+                  guests ? "pr-10" : "pr-20"
+                } `}
+              >
+                <h3>Who</h3>
+                <p className='text-sm text-gray-500'>
+                  {/* 
+                ${guests?.adult && guests?.adult + " ad"} 
+                  ${guests?.children && guests?.children + " ch"} 
+                  ${guests?.infants && guests?.infants + " inf"} 
+                  ${guests?.pets && guests?.pets + " pet"}  */}
+
+                  {`
+                  
+                  Add Guests
+                  `}
+                </p>
+              </div>
             </div>
+
             <div className='p-3 bg-rose-500 text-white rounded-full'>
               <IoSearchSharp />
             </div>
-
-            {openGuest && <AddGuestModal />}
+            {openGuest && <AddGuestModal setGuestData={setGuests} />}
           </div>
         </div>
       </div>
