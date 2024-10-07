@@ -6,16 +6,15 @@
     "category": "Countryside",
     "region": "United States",
     "checkIn": 1,
-    "checkOut": 8,
+    "checkOut": 20,
     "bathrooms": 2,
     "bedrooms": 5,
     "beds": 4,
-    "guests": {
-      "adult": 8,
-      "children": 3,
-      "infants": 2,
-      "pets": 1
-    },
+
+    "adult": 8,
+    "children": 3,
+    "infants": 2,
+    "pets": 1,
     "city": "Berlin",
     "images": [
       "https://a0.muscache.com/im/pictures/miso/Hosting-1034594067790242581/original/0b16481d-3b7f-4452-a1c1-753db1380c71.jpeg?im_w=720",
@@ -44,17 +43,16 @@
     "name": "Mounzelzoom am Kudamm",
     "category": "Countryside",
     "region": "Malaysia",
-    "checkIn": 4,
-    "checkOut": 15,
+    "checkIn": 1,
+    "checkOut": 31,
     "bathrooms": 2,
     "bedrooms": 5,
     "beds": 5,
-    "guests": {
-      "adult": 8,
-      "children": 4,
-      "infants": 2,
-      "pets": 1
-    },
+
+    "adult": 8,
+    "children": 4,
+    "infants": 2,
+    "pets": 1,
     "city": "Berlin",
     "images": [
       "https://a0.muscache.com/im/pictures/miso/Hosting-1034594067790242581/original/8d2e70b1-2ad4-46de-be5f-bca7263bf63e.jpeg?im_w=720",
@@ -84,17 +82,16 @@
     "name": "Urban Bath (LINDEMANN'S)",
     "category": "Countryside",
     "region": "Europe",
-    "checkIn": 8,
-    "checkOut": 26,
+    "checkIn": 1,
+    "checkOut": 10,
     "bathrooms": 1,
     "bedrooms": 1,
     "beds": 1,
-    "guests": {
-      "adult": 8,
-      "children": 3,
-      "infants": 2,
-      "pets": 1
-    },
+
+    "adult": 8,
+    "children": 3,
+    "infants": 2,
+    "pets": 1,
     "city": "Berlin",
     "images": [
       "https://a0.muscache.com/im/pictures/miso/Hosting-44223601/original/70475c1c-2413-4783-b6a2-f5b398c8216e.jpeg?im_w=720",
@@ -124,17 +121,16 @@
     "name": "Urban Bath (LINDEMANN'S)",
     "category": "OMG!",
     "region": "Malaysia",
-    "checkIn": 1,
+    "checkIn": 12,
     "checkOut": 29,
     "bathrooms": 1,
     "bedrooms": 1,
     "beds": 1,
-    "guests": {
-      "adult": 15,
-      "children": 8,
-      "infants": 5,
-      "pets": 3
-    },
+
+    "adult": 15,
+    "children": 8,
+    "infants": 5,
+    "pets": 3,
     "city": "Berlin",
     "images": [
       "https://a0.muscache.com/im/pictures/2c9a61c2-6651-4644-aa62-f72d62d786c5.jpg?im_w=720",
@@ -170,12 +166,11 @@
     "bathrooms": 1,
     "bedrooms": 1,
     "beds": 1,
-    "guests": {
-      "adult": 18,
-      "children": 5,
-      "infants": 2,
-      "pets": 2
-    },
+
+    "adult": 18,
+    "children": 5,
+    "infants": 2,
+    "pets": 2,
     "city": "Berlin",
     "images": [
       "https://a0.muscache.com/im/pictures/a228fa70-6792-461e-bd5d-c5fc9253ce3a.jpg?im_w=720",
@@ -206,17 +201,16 @@
     "name": "Yogalo Bath Saptoning",
     "category": "OMG!",
     "region": "Southeast Asia",
-    "checkIn": 2,
+    "checkIn": 1,
     "checkOut": 29,
     "bathrooms": 1,
     "bedrooms": 1,
     "beds": 1,
-    "guests": {
-      "adult": 13,
-      "children": 5,
-      "infants": 2,
-      "pets": 2
-    },
+
+    "adult": 13,
+    "children": 5,
+    "infants": 2,
+    "pets": 2,
     "city": "Berlin",
     "images": [
       "https://a0.muscache.com/im/pictures/734c9f93-c71b-4ac9-9aa7-bad9ca47edc3.jpg?im_w=720",
@@ -248,16 +242,15 @@
     "category": "Amazing views",
     "region": "Southeast Asia",
     "checkIn": 15,
-    "checkOut": 30,
+    "checkOut": 28,
     "bathrooms": 1,
     "bedrooms": 1,
     "beds": 1,
-    "guests": {
-      "adult": 8,
-      "children": 3,
-      "infants": 2,
-      "pets": 1
-    },
+
+    "adult": 8,
+    "children": 3,
+    "infants": 2,
+    "pets": 1,
     "city": "Berlin",
     "images": [
       "https://a0.muscache.com/im/pictures/e6a01d16-9783-4e95-81ed-3a441770177d.jpg?im_w=720",
@@ -286,17 +279,16 @@
     "name": "Double room in the city center of Berlin",
     "category": "Top cities",
     "region": "Southeast Asia",
-    "checkIn": 1,
-    "checkOut": 31,
+    "checkIn": 12,
+    "checkOut": 22,
     "bathrooms": 1,
     "bedrooms": 1,
     "beds": 1,
-    "guests": {
-      "adult": 18,
-      "children": 8,
-      "infants": 8,
-      "pets": 5
-    },
+
+    "adult": 18,
+    "children": 8,
+    "infants": 8,
+    "pets": 5,
     "city": "Berlin",
     "images": [
       "https://a0.muscache.com/im/pictures/miso/Hosting-927549849154913970/original/89412b7e-62ea-43dd-947c-1f85d9493020.jpeg?im_w=720",
@@ -327,17 +319,16 @@
     "name": "Typisch Berlin",
     "category": "Golfing",
     "region": "Canada",
-    "checkIn": 1,
-    "checkOut": 29,
+    "checkIn": 11,
+    "checkOut": 25,
     "bathrooms": 1,
     "bedrooms": 1,
     "beds": 1,
-    "guests": {
-      "adult": 18,
-      "children": 6,
-      "infants": 6,
-      "pets": 5
-    },
+
+    "adult": 18,
+    "children": 6,
+    "infants": 6,
+    "pets": 5,
     "city": "Berlin",
     "images": [
       "https://a0.muscache.com/im/pictures/miso/Hosting-1067457802464449449/original/31c9840a-0c1b-47db-8316-35219f26b682.jpeg?im_w=720",
@@ -372,17 +363,16 @@
     "name": "Suite Home Zwei-Schlafzimmer Apartment",
     "category": "Rooms",
     "region": "Europe",
-    "checkIn": 2,
-    "checkOut": 26,
+    "checkIn": 11,
+    "checkOut": 23,
     "bathrooms": 2,
     "bedrooms": 2,
     "beds": 3,
-    "guests": {
-      "adult": 12,
-      "children": 7,
-      "infants": 6,
-      "pets": 4
-    },
+
+    "adult": 12,
+    "children": 7,
+    "infants": 6,
+    "pets": 4,
     "city": "Berlin",
     "images": [
       "https://a0.muscache.com/im/pictures/miso/Hosting-44223601/original/69338594-ce9b-4131-80bf-fd6df0a9b5b0.jpeg?im_w=720",
@@ -421,12 +411,11 @@
     "bathrooms": 1,
     "bedrooms": 1,
     "beds": 1,
-    "guests": {
-      "adult": 8,
-      "children": 6,
-      "infants": 3,
-      "pets": 2
-    },
+
+    "adult": 8,
+    "children": 6,
+    "infants": 3,
+    "pets": 2,
     "city": "Berlin",
     "images": [
       "https://a0.muscache.com/im/pictures/miso/Hosting-48987728/original/cfed30d1-4580-4ff5-9c25-997e915323d4.jpeg?im_w=720",
@@ -461,10 +450,15 @@
     "name": "Great coffee & famously amazing bed",
     "category": "Top of the world",
     "region": "United States",
-    "checkIn": 2,
-    "checkOut": 24,
+    "checkIn": 15,
+    "checkOut": 28,
     "bathrooms": 1,
     "bedrooms": 1,
+    "beds": 1,
+    "adult": 8,
+    "children": 6,
+    "infants": 4,
+    "pets": 2,
     "city": "Berlin",
     "images": [
       "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1120133598974304854/original/28593894-769a-4776-993d-cef7e4fbb07c.jpeg?im_w=720",
@@ -498,17 +492,16 @@
     "name": "Penthouse in the heart of Berlin",
     "category": "Arctic",
     "region": "Malaysia",
-    "checkIn": 2,
-    "checkOut": 23,
+    "checkIn": 12,
+    "checkOut": 15,
     "bathrooms": 1,
     "bedrooms": 2,
     "beds": 4,
-    "guests": {
-      "adult": 8,
-      "children": 6,
-      "infants": 4,
-      "pets": 2
-    },
+
+    "adult": 8,
+    "children": 6,
+    "infants": 4,
+    "pets": 2,
     "city": "Berlin",
     "images": [
       "https://a0.muscache.com/im/pictures/hosting/Hosting-1111567132715131033/original/f3d44ccd-ee06-43de-a012-c7547d0109be.jpeg?im_w=720",
@@ -540,17 +533,16 @@
     "name": "Lovely 3-rooms apartment near Ku'Damm",
     "category": "Islands",
     "region": "Southeast Asia",
-    "checkIn": 14,
-    "checkOut": 31,
+    "checkIn": 17,
+    "checkOut": 21,
     "bathrooms": 1.5,
     "bedrooms": 2,
     "beds": 2,
-    "guests": {
-      "adult": 12,
-      "children": 5,
-      "infants": 4,
-      "pets": 2
-    },
+
+    "adult": 12,
+    "children": 5,
+    "infants": 4,
+    "pets": 2,
     "city": "Berlin",
     "images": [
       "https://a0.muscache.com/im/pictures/miso/Hosting-675361851173038813/original/f97a05f7-a7f3-4043-8326-78ab2cf0e68c.jpeg?im_w=720",
@@ -585,17 +577,16 @@
     "name": "Roof terrace at the Wintergarten – 86 m²",
     "category": "Beachfont",
     "region": "Southeast Asia",
-    "checkIn": 2,
-    "checkOut": 30,
+    "checkIn": 14,
+    "checkOut": 19,
     "bathrooms": 1,
     "bedrooms": 2,
     "beds": 2,
-    "guests": {
-      "adult": 12,
-      "children": 6,
-      "infants": 5,
-      "pets": 2
-    },
+
+    "adult": 12,
+    "children": 6,
+    "infants": 5,
+    "pets": 2,
     "city": "Berlin",
     "images": [
       "https://a0.muscache.com/im/pictures/miso/Hosting-935188267169193699/original/3f3bbc39-ded2-41b8-a38f-1c1755428b40.jpeg?im_w=720",
@@ -630,17 +621,16 @@
     "name": "Stylish room in Schöneberg",
     "category": "Grand pianos",
     "region": "Canada",
-    "checkIn": 12,
-    "checkOut": 28,
+    "checkIn": 20,
+    "checkOut": 31,
     "bathrooms": 1,
     "bedrooms": 1,
     "beds": 1,
-    "guests": {
-      "adult": 8,
-      "children": 3,
-      "infants": 2,
-      "pets": 1
-    },
+
+    "adult": 8,
+    "children": 3,
+    "infants": 2,
+    "pets": 1,
     "city": "Berlin",
     "images": [
       "https://a0.muscache.com/im/pictures/miso/Hosting-1028964485008042189/original/89d18370-3d24-485b-bb9d-4c741baf5e8c.jpeg?im_w=720",
@@ -674,17 +664,16 @@
     "name": "Room Wilmersdorf/Charlottenburg",
     "category": "Boats",
     "region": "Europe",
-    "checkIn": 2,
-    "checkOut": 26,
+    "checkIn": 21,
+    "checkOut": 31,
     "bathrooms": 1,
     "bedrooms": 1,
     "beds": 1,
-    "guests": {
-      "adult": 8,
-      "children": 3,
-      "infants": 2,
-      "pets": 1
-    },
+
+    "adult": 8,
+    "children": 3,
+    "infants": 2,
+    "pets": 1,
     "city": "Berlin",
     "images": [
       "https://a0.muscache.com/im/pictures/hosting/Hosting-976919433562846837/original/4ff1b9c4-8c0a-47de-bc79-6049153a9c7e.jpeg?im_w=720",
@@ -719,16 +708,15 @@
     "category": "Lakefront",
     "region": "Europe",
     "checkIn": 1,
-    "checkOut": 24,
+    "checkOut": 14,
     "bathrooms": 1,
     "bedrooms": 2,
     "beds": 2,
-    "guests": {
-      "adult": 18,
-      "children": 8,
-      "infants": 4,
-      "pets": 3
-    },
+
+    "adult": 18,
+    "children": 8,
+    "infants": 4,
+    "pets": 3,
     "city": "Berlin",
     "images": [
       "https://a0.muscache.com/im/pictures/2fcb5dea-1d28-4d8b-9401-3209450860a0.jpg?im_w=720",
@@ -762,17 +750,16 @@
     "name": "Stylish room in Schöneberg",
     "category": "New",
     "region": "Southeast Asia",
-    "checkIn": 2,
-    "checkOut": 14,
+    "checkIn": 7,
+    "checkOut": 31,
     "bathrooms": 1,
     "bedrooms": 1,
     "beds": 1,
-    "guests": {
-      "adult": 10,
-      "children": 6,
-      "infants": 5,
-      "pets": 4
-    },
+
+    "adult": 10,
+    "children": 6,
+    "infants": 5,
+    "pets": 4,
     "city": "Berlin",
     "images": [
       "https://a0.muscache.com/im/pictures/hosting/Hosting-1028233458536518838/original/234553e6-47f2-484d-9ea7-c833f7575145.jpeg?im_w=720",
@@ -805,17 +792,16 @@
     "name": "big Apartment for 9 person in the centre of Berlin",
     "category": "Tiny homes",
     "region": "Canada",
-    "checkIn": 1,
+    "checkIn": 14,
     "checkOut": 24,
     "bathrooms": 2,
     "bedrooms": 2,
     "beds": 9,
-    "guests": {
-      "adult": 8,
-      "children": 3,
-      "infants": 2,
-      "pets": 1
-    },
+
+    "adult": 8,
+    "children": 3,
+    "infants": 2,
+    "pets": 1,
     "city": "Berlin",
     "images": [
       "https://a0.muscache.com/im/pictures/miso/Hosting-45854967/original/f34c6861-3e28-46fc-89da-b1d6bc830899.jpeg?im_w=720",
@@ -849,17 +835,16 @@
     "name": "Lovely and bright room",
     "category": "Camping",
     "region": "Europe",
-    "checkIn": 1,
-    "checkOut": 31,
+    "checkIn": 16,
+    "checkOut": 26,
     "bathrooms": 1,
     "bedrooms": 1,
     "beds": 1,
-    "guests": {
-      "adult": 8,
-      "children": 6,
-      "infants": 3,
-      "pets": 3
-    },
+
+    "adult": 8,
+    "children": 6,
+    "infants": 3,
+    "pets": 3,
     "city": "Berlin",
     "images": [
       "https://a0.muscache.com/im/pictures/3e1a9a24-0cda-4a97-9bbc-bd4e0111cd92.jpg?im_w=720",
@@ -891,17 +876,16 @@
     "name": "Kleines (Anna 1908)",
     "category": "Amazing pools",
     "region": "Malaysia",
-    "checkIn": 6,
+    "checkIn": 16,
     "checkOut": 24,
     "bathrooms": 1,
     "bedrooms": 1,
     "beds": 1,
-    "guests": {
-      "adult": 8,
-      "children": 3,
-      "infants": 2,
-      "pets": 1
-    },
+
+    "adult": 8,
+    "children": 3,
+    "infants": 2,
+    "pets": 1,
     "city": "Berlin",
     "images": [
       "https://a0.muscache.com/im/pictures/ec42eca6-2917-4aa4-a9bd-e5fb25031ccc.jpg?im_w=720",
@@ -932,17 +916,16 @@
     "name": "huge room in artistic flat",
     "category": "Houseboats",
     "region": "United States",
-    "checkIn": 7,
+    "checkIn": 16,
     "checkOut": 31,
     "bathrooms": 3,
     "bedrooms": 6,
     "beds": 2,
-    "guests": {
-      "adult": 8,
-      "children": 3,
-      "infants": 2,
-      "pets": 1
-    },
+
+    "adult": 8,
+    "children": 3,
+    "infants": 2,
+    "pets": 1,
     "city": "Berlin",
     "images": [
       "https://a0.muscache.com/im/pictures/miso/Hosting-48987728/original/cfed30d1-4580-4ff5-9c25-997e915323d4.jpeg?aki_policy=large",
@@ -976,17 +959,16 @@
     "name": "limehome Berlin Stresem. | Room-Wheelchair access",
     "category": "Cabins",
     "region": "Southeast Asia",
-    "checkIn": 2,
-    "checkOut": 17,
+    "checkIn": 17,
+    "checkOut": 25,
     "bathrooms": 1,
     "bedrooms": 1,
     "beds": 1,
-    "guests": {
-      "adult": 8,
-      "children": 3,
-      "infants": 2,
-      "pets": 1
-    },
+
+    "adult": 8,
+    "children": 3,
+    "infants": 2,
+    "pets": 1,
     "city": "Berlin",
     "images": [
       "https://a0.muscache.com/im/pictures/miso/Hosting-945370095384488800/original/13c0e041-c018-4901-b8c4-d36f75800673.jpeg?im_w=720",
@@ -1018,17 +1000,16 @@
     "name": "Kleine feine Altbauwohnung",
     "category": "National parks",
     "region": "Canada",
-    "checkIn": 2,
-    "checkOut": 27,
+    "checkIn": 21,
+    "checkOut": 31,
     "bathrooms": 1,
     "bedrooms": 1,
     "beds": 1,
-    "guests": {
-      "adult": 8,
-      "children": 3,
-      "infants": 2,
-      "pets": 1
-    },
+
+    "adult": 8,
+    "children": 3,
+    "infants": 2,
+    "pets": 1,
     "city": "Berlin",
     "images": [
       "https://a0.muscache.com/im/pictures/miso/Hosting-1195676775216661163/original/dadff0f2-7174-4fd8-9ac4-97be4deb2ff6.jpeg?im_w=720",
@@ -1063,17 +1044,16 @@
     "name": "Quiet & Small (LINDEMANN'S)",
     "category": "Caves",
     "region": "Europe",
-    "checkIn": 2,
+    "checkIn": 14,
     "checkOut": 31,
     "bathrooms": 1,
     "bedrooms": 1,
     "beds": 1,
-    "guests": {
-      "adult": 8,
-      "children": 3,
-      "infants": 2,
-      "pets": 1
-    },
+
+    "adult": 8,
+    "children": 3,
+    "infants": 2,
+    "pets": 1,
     "city": "Berlin",
     "images": [
       "https://a0.muscache.com/im/pictures/3cb3a025-a598-481c-b7f6-6d018eb0dc30.jpg?im_w=720",
@@ -1105,17 +1085,16 @@
     "name": "Einzelzimmer in Schöneberg",
     "category": "New",
     "region": "Malaysia",
-    "checkIn": 3,
-    "checkOut": 22,
+    "checkIn": 1,
+    "checkOut": 31,
     "bathrooms": 1,
     "bedrooms": 0,
     "beds": 1,
-    "guests": {
-      "adult": 8,
-      "children": 3,
-      "infants": 2,
-      "pets": 1
-    },
+
+    "adult": 8,
+    "children": 3,
+    "infants": 2,
+    "pets": 1,
     "city": "Berlin",
     "images": [
       "https://a0.muscache.com/im/pictures/miso/Hosting-46080792/original/cacabb8b-1e73-4038-991f-5d9ba3cdd18c.jpeg?im_w=720",
@@ -1151,17 +1130,16 @@
     "name": "limehome Berlin Luise-Henriette-Str | Single Suite",
     "category": "New",
     "region": "United States",
-    "checkIn": 3,
-    "checkOut": 27,
+    "checkIn": 15,
+    "checkOut": 31,
     "bathrooms": 1,
     "bedrooms": 1,
     "beds": 1,
-    "guests": {
-      "adult": 8,
-      "children": 3,
-      "infants": 2,
-      "pets": 1
-    },
+
+    "adult": 8,
+    "children": 3,
+    "infants": 2,
+    "pets": 1,
     "city": "Berlin",
     "images": [
       "https://a0.muscache.com/im/pictures/prohost-api/Hosting-731809279716237058/original/80de6bc1-0e20-4ec5-97a8-4310b42dece5.jpeg?im_w=720",
@@ -1193,17 +1171,16 @@
     "name": "4 Personen Altbau Kurfürstendamm - Romeo & Julia",
     "category": "Countryside",
     "region": "Southeast Asia",
-    "checkIn": 2,
-    "checkOut": 26,
+    "checkIn": 16,
+    "checkOut": 31,
     "bathrooms": 1,
     "bedrooms": 2,
     "beds": 2,
-    "guests": {
-      "adult": 8,
-      "children": 3,
-      "infants": 2,
-      "pets": 1
-    },
+
+    "adult": 8,
+    "children": 3,
+    "infants": 2,
+    "pets": 1,
     "city": "Berlin",
     "images": [
       "https://a0.muscache.com/im/pictures/8e081b92-24d9-4a92-9a05-e0aafec443aa.jpg?im_w=720",
@@ -1237,17 +1214,16 @@
     "name": "Artist in Residence- House with Garden",
     "category": "OMG!",
     "region": "Canada",
-    "checkIn": 3,
-    "checkOut": 28,
+    "checkIn": 1,
+    "checkOut": 31,
     "bathrooms": 1,
     "bedrooms": 1,
     "beds": 2,
-    "guests": {
-      "adult": 8,
-      "children": 3,
-      "infants": 2,
-      "pets": 1
-    },
+
+    "adult": 8,
+    "children": 3,
+    "infants": 2,
+    "pets": 1,
     "city": "Berlin",
     "images": [
       "https://a0.muscache.com/im/pictures/9907e829-8bd1-4d64-8d89-c5e150dd6a19.jpg?im_w=720",
@@ -1284,17 +1260,16 @@
     "name": "limehome Berlin Luise-Henriette-Str. | Suite",
     "category": "Amazing views",
     "region": "Europe",
-    "checkIn": 2,
+    "checkIn": 17,
     "checkOut": 31,
     "bathrooms": 1,
     "bedrooms": 1,
     "beds": 1,
-    "guests": {
-      "adult": 8,
-      "children": 3,
-      "infants": 2,
-      "pets": 1
-    },
+
+    "adult": 8,
+    "children": 3,
+    "infants": 2,
+    "pets": 1,
     "city": "Berlin",
     "images": [
       "https://a0.muscache.com/im/pictures/prohost-api/Hosting-731825380030233334/original/3a69e7ce-400c-4366-94ca-ad7b83f94a6e.jpeg?im_w=720",
@@ -1326,17 +1301,16 @@
     "name": "Central, cosy and airy apartment in Kreuzberg",
     "category": "Golfing",
     "region": "Malaysia",
-    "checkIn": 2,
+    "checkIn": 12,
     "checkOut": 30,
     "bathrooms": 1,
     "bedrooms": 1,
     "beds": 1,
-    "guests": {
-      "adult": 8,
-      "children": 3,
-      "infants": 2,
-      "pets": 1
-    },
+
+    "adult": 8,
+    "children": 3,
+    "infants": 2,
+    "pets": 1,
     "city": "Berlin",
     "images": [
       "https://a0.muscache.com/im/pictures/c0355544-fe23-47b8-a7d4-14c7a05b4bb2.jpg?im_w=720",
@@ -1372,17 +1346,16 @@
     "name": "Economy Doppelzimmer in Schöneberg",
     "category": "Rooms",
     "region": "Malaysia",
-    "checkIn": 4,
+    "checkIn": 14,
     "checkOut": 31,
     "bathrooms": 1,
     "bedrooms": 0,
     "beds": 2,
-    "guests": {
-      "adult": 8,
-      "children": 3,
-      "infants": 2,
-      "pets": 1
-    },
+
+    "adult": 8,
+    "children": 3,
+    "infants": 2,
+    "pets": 1,
     "city": "Berlin",
     "images": [
       "https://a0.muscache.com/im/pictures/6ab1f686-c414-47c2-acc6-5c3197e8a5ba.jpg?im_w=720",
@@ -1417,17 +1390,16 @@
     "name": "Apartment near Potsdamer Place",
     "category": "Arctic",
     "region": "United States",
-    "checkIn": 5,
-    "checkOut": 26,
+    "checkIn": 10,
+    "checkOut": 29,
     "bathrooms": 1,
     "bedrooms": 1,
     "beds": 1,
-    "guests": {
-      "adult": 8,
-      "children": 3,
-      "infants": 2,
-      "pets": 1
-    },
+
+    "adult": 8,
+    "children": 3,
+    "infants": 2,
+    "pets": 1,
     "city": "Berlin",
     "images": [
       "https://a0.muscache.com/im/pictures/81697785/87c66613_original.jpg?im_w=720",
@@ -1463,17 +1435,16 @@
     "name": "KudammBeauty-160m²-4Rooms-2Bathroom-Balcony",
     "category": "Beachfont",
     "region": "Southeast Asia",
-    "checkIn": 5,
+    "checkIn": 15,
     "checkOut": 29,
     "bathrooms": 2,
     "bedrooms": 3,
     "beds": 3,
-    "guests": {
-      "adult": 8,
-      "children": 3,
-      "infants": 2,
-      "pets": 1
-    },
+
+    "adult": 8,
+    "children": 3,
+    "infants": 2,
+    "pets": 1,
     "city": "Berlin",
     "images": [
       "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE4NTM2MjMxNDUzMTYzOTQwOA%3D%3D/original/9bf06588-fd2d-4a86-be82-3df2197fb934.jpeg?im_w=720",
@@ -1509,17 +1480,16 @@
     "name": "Helles Elegantes Zimmer in Berlin-Schöneberg (12)",
     "category": "Tiny homes",
     "region": "Canada",
-    "checkIn": 6,
-    "checkOut": 24,
+    "checkIn": 16,
+    "checkOut": 30,
     "bathrooms": 0.5,
     "bedrooms": 1,
     "beds": 1,
-    "guests": {
-      "adult": 8,
-      "children": 3,
-      "infants": 2,
-      "pets": 1
-    },
+
+    "adult": 8,
+    "children": 3,
+    "infants": 2,
+    "pets": 1,
     "city": "Berlin",
     "images": [
       "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1197652368892223424/original/6358eccf-76fe-4ef7-93a1-d1b02f29de5d.jpeg?im_w=720",
@@ -1554,17 +1524,16 @@
     "name": "Schönes Apartment nähe Zentrums",
     "category": "Europe",
     "region": "6",
-    "checkIn": 17,
+    "checkIn": 12,
     "checkOut": 31,
     "bathrooms": 1,
     "bedrooms": 1,
     "beds": 2,
-    "guests": {
-      "adult": 8,
-      "children": 3,
-      "infants": 2,
-      "pets": 1
-    },
+
+    "adult": 8,
+    "children": 3,
+    "infants": 2,
+    "pets": 1,
     "city": "Berlin",
     "images": [
       "https://a0.muscache.com/im/pictures/miso/Hosting-1235471973212937900/original/a07413fb-7de2-439a-9f57-043090cdb5e7.jpeg?im_w=720",
@@ -1600,17 +1569,16 @@
     "name": "Sunny apartment with balcony",
     "category": "Cabins",
     "region": "Malaysia",
-    "checkIn": 13,
+    "checkIn": 19,
     "checkOut": 30,
     "bathrooms": 1,
     "bedrooms": 2,
     "beds": 0,
-    "guests": {
-      "adult": 8,
-      "children": 3,
-      "infants": 2,
-      "pets": 1
-    },
+
+    "adult": 8,
+    "children": 3,
+    "infants": 2,
+    "pets": 1,
     "city": "Berlin",
     "images": [
       "https://a0.muscache.com/im/pictures/hosting/Hosting-1103178171226396121/original/5b3130b7-4418-4283-a6a8-e2a55e5f0f91.jpeg?im_w=720",
@@ -1648,17 +1616,16 @@
     "name": "Individual Hotel Gat Point Charlie Berlin",
     "category": "OMG!",
     "region": "United States",
-    "checkIn": 2,
+    "checkIn": 12,
     "checkOut": 29,
     "bathrooms": 1,
     "bedrooms": 0,
     "beds": 1,
-    "guests": {
-      "adult": 8,
-      "children": 3,
-      "infants": 2,
-      "pets": 1
-    },
+
+    "adult": 8,
+    "children": 3,
+    "infants": 2,
+    "pets": 1,
     "city": "Berlin",
     "images": [
       "https://a0.muscache.com/im/pictures/31fd1f6d-4e18-4120-8385-780a1d812551.jpg?im_w=720",
@@ -1688,17 +1655,16 @@
     "name": "SouthStar - Living with art",
     "category": "Golfing",
     "region": "Southeast Asia",
-    "checkIn": 5,
+    "checkIn": 15,
     "checkOut": 27,
     "bathrooms": 1,
     "bedrooms": 1,
     "beds": 0,
-    "guests": {
-      "adult": 8,
-      "children": 3,
-      "infants": 2,
-      "pets": 1
-    },
+
+    "adult": 8,
+    "children": 3,
+    "infants": 2,
+    "pets": 1,
     "city": "Berlin",
     "images": [
       "https://a0.muscache.com/im/pictures/hosting/Hosting-1158465875723334808/original/6dffe0aa-a6bf-4519-ab14-e48b8e760185.jpeg?im_w=720",
@@ -1733,17 +1699,16 @@
     "name": "Doppelzimmer am Kudamm",
     "category": "Rooms",
     "region": "Canada",
-    "checkIn": 6,
+    "checkIn": 20,
     "checkOut": 30,
     "bathrooms": 1,
     "bedrooms": 1,
     "beds": 2,
-    "guests": {
-      "adult": 8,
-      "children": 3,
-      "infants": 2,
-      "pets": 1
-    },
+
+    "adult": 8,
+    "children": 3,
+    "infants": 2,
+    "pets": 1,
     "city": "Berlin",
     "images": [
       "https://a0.muscache.com/im/pictures/52dccc31-e42d-4375-a9e4-01aae7ad676b.jpg?im_w=720",
@@ -1774,10 +1739,15 @@
     "name": "Large windows and elegant palette. Plus a pool!",
     "category": "Bed & breakfasts",
     "region": "Europe",
-    "checkIn": 2,
+    "checkIn": 20,
     "checkOut": 29,
     "bathrooms": 1,
     "bedrooms": 1,
+    "beds": 2,
+    "adult": 8,
+    "children": 6,
+    "infants": 4,
+    "pets": 2,
     "city": "Berlin",
     "images": [
       "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1130338732311946203/original/bbc9b9e0-a4e4-47aa-9193-6bef4a06ac0f.jpeg?im_w=720",
@@ -1812,17 +1782,16 @@
     "name": "Nena Apartments Kreuzberg 61 \"Studio\"",
     "category": "Top of the world",
     "region": "Europe",
-    "checkIn": 6,
-    "checkOut": 29,
+    "checkIn": 1,
+    "checkOut": 31,
     "bathrooms": 1,
     "bedrooms": 1,
     "beds": 1,
-    "guests": {
-      "adult": 8,
-      "children": 3,
-      "infants": 2,
-      "pets": 1
-    },
+
+    "adult": 8,
+    "children": 3,
+    "infants": 2,
+    "pets": 1,
     "city": "Berlin",
     "images": [
       "https://a0.muscache.com/im/pictures/miso/Hosting-43798011/original/c6416ef9-5942-4d9f-82b5-966138e2d147.jpeg?im_w=720",
@@ -1853,17 +1822,16 @@
     "name": "4 Personen Altbau nahe Kurfürstendamm - Othello",
     "category": "Arctic",
     "region": "Malaysia",
-    "checkIn": 2,
+    "checkIn": 24,
     "checkOut": 29,
     "bathrooms": 1,
     "bedrooms": 2,
     "beds": 2,
-    "guests": {
-      "adult": 8,
-      "children": 3,
-      "infants": 2,
-      "pets": 1
-    },
+
+    "adult": 8,
+    "children": 3,
+    "infants": 2,
+    "pets": 1,
     "city": "Berlin",
     "images": [
       "https://a0.muscache.com/im/pictures/15775461-6d3e-4f5f-9dc3-2d997cca235f.jpg?im_w=720",
@@ -1890,6 +1858,175 @@
         { "title": "Cleaning fee", "amount": 53 },
         { "title": "Taxes", "amount": 23 }
       ]
+    }
+  },
+  {
+    "host": "Olivia Anderson",
+    "position": 6,
+    "name": "Suite Home Zwei-Schlafzimmer Apartment",
+    "category": "Rooms",
+    "region": "Europe",
+    "checkIn": 14,
+    "checkOut": 31,
+    "bathrooms": 2,
+    "bedrooms": 2,
+    "beds": 3,
+
+    "adult": 12,
+    "children": 7,
+    "infants": 6,
+    "pets": 4,
+    "city": "Berlin",
+    "images": [
+      "https://a0.muscache.com/im/pictures/miso/Hosting-44223601/original/c7e7c59c-d9ef-4525-9a86-2a8dcd83df83.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-44223601/original/69338594-ce9b-4131-80bf-fd6df0a9b5b0.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-44223601/original/029d27dc-5ed2-4491-98eb-d0bb8c1a7e2f.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1034594067790242581/original/9098af00-ec02-4a40-85b8-aee9a024578a.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-44223601/original/879eb7a2-dbd4-4476-b716-c46610ec920d.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-44223601/original/dd1bcc5c-0bf2-4b4e-9b32-a07826457258.jpeg?im_w=720"
+    ],
+    "hostThumbnail": "https://a0.muscache.com/im/pictures/user/f15e6954-c9c9-40c1-b6bc-0f21d30a7e8c.jpg?aki_policy=profile_x_medium",
+
+    "persons": 3,
+    "reviewsCount": 601,
+    "rating": 4.81,
+    "type": "Home",
+    "userId": 354783560,
+    "address": "Berlin, Berlin, Germany",
+    "price": {
+      "rate": 198,
+      "currency": "USD",
+      "total": 198,
+      "priceItems": [
+        { "title": "$247 x 1 night", "amount": 247 },
+        { "title": "Early bird discount", "amount": 49 }
+      ]
+    }
+  },
+  {
+    "host": "Robert Moore",
+    "position": 7,
+    "name": "bright room in artistic flat",
+    "category": "Bed & breakfasts",
+    "region": "Malaysia",
+    "checkIn": 10,
+    "checkOut": 26,
+    "bathrooms": 1,
+    "bedrooms": 1,
+    "beds": 1,
+
+    "adult": 8,
+    "children": 6,
+    "infants": 3,
+    "pets": 2,
+    "city": "Berlin",
+    "images": [
+      "https://a0.muscache.com/im/pictures/airflow/Hosting-833080845940201182/original/dc1cfbd2-cea2-4490-b3f9-73dcb6fe49f1.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-48987728/original/cfed30d1-4580-4ff5-9c25-997e915323d4.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/airflow/Hosting-833080845940201182/original/832199fe-5c7c-433d-bc83-664a195d974f.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/airflow/Hosting-833080845940201182/original/0f51af0e-7cf7-4f54-9e1c-3a57025d8411.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/airflow/Hosting-833080845940201182/original/27f0b995-f1d7-4357-8436-3d8d25625e53.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/airflow/Hosting-833080845940201182/original/1e2cf0f7-bdac-4562-a203-078c0cfc70d6.jpg?im_w=720"
+    ],
+    "hostThumbnail": "https://a0.muscache.com/im/pictures/user/ed425346-cee1-4826-b2ec-97b4da56b825.jpg?aki_policy=profile_x_medium",
+
+    "persons": 1,
+    "reviewsCount": 54,
+    "rating": 4.87,
+    "type": "Home",
+    "userId": 368264,
+    "address": "Berlin, Berlin, Germany",
+    "price": {
+      "rate": 85,
+      "currency": "USD",
+      "total": 85,
+      "priceItems": [
+        { "title": "$61 x 1 night", "amount": 61 },
+        { "title": "Cleaning fee", "amount": 11 },
+        { "title": "Airbnb service fee", "amount": 13 }
+      ]
+    }
+  },
+  {
+    "host": "Sophia Thompson",
+    "position": 8,
+    "name": "Great coffee & famously amazing bed",
+    "category": "Top of the world",
+    "region": "United States",
+    "checkIn": 10,
+    "checkOut": 24,
+    "bathrooms": 1,
+    "bedrooms": 1,
+    "beds": 1,
+    "adult": 8,
+    "children": 6,
+    "infants": 4,
+    "pets": 2,
+    "city": "Berlin",
+    "images": [
+      "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1120133598974304854/original/071fa4be-db9c-4b0b-87f1-660c43b6f3c6.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1120133598974304854/original/28593894-769a-4776-993d-cef7e4fbb07c.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1120133598974304854/original/107040a3-a4da-4fea-9788-fb2df7b358b7.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1120133598974304854/original/ce883a37-d70a-4210-8f17-b1e376553424.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1120133598974304854/original/0d3ab540-6d15-40d1-9321-77203dbe8c18.jpeg?im_w=720"
+    ],
+    "hostThumbnail": "https://a0.muscache.com/im/pictures/user/User-568852511/original/68f5a467-6ad3-437b-89e2-f6060b38d36a.jpeg?aki_policy=profile_x_medium",
+
+    "persons": 2,
+    "reviewsCount": 99,
+    "rating": 4.65,
+    "type": "Room",
+    "userId": 568852511,
+    "address": "Berlin, Berlin, Germany",
+    "price": {
+      "rate": 80,
+      "currency": "USD",
+      "total": 80,
+      "priceItems": [
+        { "title": "$75 x 1 night", "amount": 75 },
+        { "title": "Taxes and fees", "amount": 5 }
+      ]
+    }
+  },
+  {
+    "host": "William Garcia",
+
+    "position": 9,
+    "name": "Penthouse in the heart of Berlin",
+    "category": "Arctic",
+    "region": "Malaysia",
+    "checkIn": 18,
+    "checkOut": 31,
+    "bathrooms": 1,
+    "bedrooms": 2,
+    "beds": 4,
+
+    "adult": 8,
+    "children": 6,
+    "infants": 4,
+    "pets": 2,
+    "city": "Berlin",
+    "images": [
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-1111567132715131033/original/b1b397f6-53ca-4636-97c3-95bf845e3a81.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-1111567132715131033/original/92f3bd2f-968e-4b9c-ab84-c347d4bbac98.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTExMTU2NzEzMjcxNTEzMTAzMw%3D%3D/original/f13854b9-8b1c-4405-91c1-61f312411dbc.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTExMTU2NzEzMjcxNTEzMTAzMw%3D%3D/original/297e82f8-4640-449b-bff9-edd076a3b440.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-1111567132715131033/original/f3d44ccd-ee06-43de-a012-c7547d0109be.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTExMTU2NzEzMjcxNTEzMTAzMw%3D%3D/original/d8952c26-1bab-4708-8769-c10850d1622b.jpeg?im_w=720"
+    ],
+    "hostThumbnail": "https://a0.muscache.com/im/pictures/user/User-9852586/original/dd84cc41-55d5-4647-bdf8-e14bb70cd4c3.jpeg?aki_policy=profile_x_medium",
+
+    "persons": 4,
+    "reviewsCount": 40,
+    "rating": 4.95,
+    "type": "Room",
+    "userId": 9852586,
+    "address": "Berlin, Berlin, Germany",
+    "price": {
+      "rate": 264,
+      "currency": "USD",
+      "total": 264,
+      "priceItems": [{ "title": "$264 x 1 night", "amount": 264 }]
     }
   }
 ]

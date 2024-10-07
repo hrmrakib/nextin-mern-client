@@ -14,7 +14,6 @@ const DateRangeSelector = ({ sendCheckDate }) => {
   ]);
 
   const handleSelect = (ranges) => {
-    console.log(ranges.selection);
     setState([ranges.selection]);
     sendCheckDate(ranges.selection);
   };

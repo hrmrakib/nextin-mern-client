@@ -77,7 +77,7 @@ const ImageSlider = ({ category }: any) => {
 
           {/* Right Arrow */}
           <button
-            className='absolute right-2 top-1/2 transform -translate-y-1/2 px-1.5 py-1.5 bg-gray-200 opacity-0 group-hover:opacity-100 hover:bg-white hover:shadow-md text-gray-800 hover:scale-105 transition duration-200 rounded-full'
+            className='absolute right-4 top-1/2 transform -translate-y-1/2 px-1.5 py-1.5 bg-gray-200 opacity-0 group-hover:opacity-100 hover:bg-white hover:shadow-md text-gray-800 hover:scale-105 transition duration-200 rounded-full'
             onClick={nextImage}
           >
             <IoIosArrowForward className='text-lg' />
