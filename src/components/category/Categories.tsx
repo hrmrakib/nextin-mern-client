@@ -34,19 +34,19 @@ const Categories = () => {
       // Check if the scroll is at the very end (with a tolerance to catch small scroll inaccuracies)
       const isAtEnd =
         scrollElement.scrollLeft + scrollElement.clientWidth >=
-        scrollElement.scrollWidth - 1; // Use -1 to allow for small scroll inaccuracy
+        scrollElement.scrollWidth - 1;
 
       if (isAtEnd) {
-        setShowRightButton(false); // Hide right button if at the end
+        setShowRightButton(false);
       } else {
-        setShowRightButton(true); // Show right button if not at the end
+        setShowRightButton(true);
       }
     }
   };
 
   // Scroll left or right by 100px
   const handleScroll = (direction: "left" | "right") => {
-    const scrollAmount = 420;
+    const scrollAmount = 400;
     const scrollElement = scrollRef.current;
 
     if (scrollElement) {
@@ -66,7 +66,6 @@ const Categories = () => {
       scrollElement.addEventListener("scroll", checkScrollPosition);
     }
 
-    // Cleanup scroll event listener on component unmount
     return () => {
       if (scrollElement) {
         scrollElement.removeEventListener("scroll", checkScrollPosition);

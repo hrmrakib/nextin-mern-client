@@ -50,6 +50,10 @@ const Cards = () => {
 
   if (error) return "An error has occurred: " + error.message;
 
+  console.log({ filterResult });
+  console.log({ searchResult });
+  console.log({ data });
+
   return (
     <Container>
       <div className='grid grid-cols-4 gap-6'>

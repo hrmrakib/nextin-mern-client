@@ -7,6 +7,9 @@ import { useQuery } from "@tanstack/react-query";
 import { axiosPublic } from "../../hooks/useAxiosPublic";
 import { useDispatch } from "react-redux";
 import { setSearchResults } from "../../features/searchResult/searchResultSlice";
+import { clearFilterResults } from "../../features/filterResult/filterResultSlice";
+import { useNavigate } from "react-router-dom";
+import queryString from "query-string";
 
 const OnTopSearch = () => {
   const [modals, setModals] = useState({
@@ -22,6 +25,7 @@ const OnTopSearch = () => {
   const [checkDate, setCheckDate] = useState(null);
   const regionRef = useRef(null);
   const dispatch = useDispatch();
+  const navigate = useNavigate();
 
   const [guests, setGuests] = useState({
     adult: 0,
@@ -70,6 +74,7 @@ const OnTopSearch = () => {
 
   const handleSearch = () => {
     refetch();
+    handleCategoryQuery(region);
 
     modals.guest = false;
     modals.dateRangeIn = false;
@@ -79,12 +84,16 @@ const OnTopSearch = () => {
   useEffect(() => {
     setTimeout(() => {
       if (!isPending && !error && data) {
+        dispatch(clearFilterResults());
         dispatch(setSearchResults(data));
       }
-    }, 100);
+    }, 10);
   }, [data]);
 
-  console.log(data && data);
+  const handleCategoryQuery = (region: string) => {
+    const query = queryString.stringify({ region });
+    navigate(`?${query}`);
+  };
 
   return (
     <div className='flex flex-col duration-700 ease-in-out transform transition-opacity z-30'>
