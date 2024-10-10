@@ -54,7 +54,7 @@ const ImageSlider = ({ category }: any) => {
   return (
     <div
       ref={sliderRef}
-      className='relative group w-full max-w-lg mx-auto overflow-hidden rounded-lg transition duration-75 cursor-pointer'
+      className='relative group w-full lg:max-w-lg mx-auto overflow-hidden rounded-lg transition duration-75 cursor-pointer'
       onTouchStart={handleTouchStart}
       onTouchMove={handleTouchMove}
     >
@@ -64,7 +64,7 @@ const ImageSlider = ({ category }: any) => {
           <img
             src={category?.images[currentIndex]}
             alt={`Slide ${category?.name}`}
-            className={`absolute inset-0 w-[320px] h-[300px] rounded-2xl object-cover transition-opacity duration-500 ease-in-out`}
+            className={`absolute inset-0 lg:w-[320px] h-[300px] rounded-2xl object-cover transition-opacity duration-500 ease-in-out`}
           />
 
           {/* Left Arrow */}

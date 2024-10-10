@@ -40,7 +40,6 @@ const FilterForm = () => {
 
   const handleChange = (event: React.SyntheticEvent, newValue: string) => {
     setValue(newValue);
-    console.log(event);
   };
 
   const { isPending, error, data, refetch } = useQuery({
@@ -61,7 +60,6 @@ const FilterForm = () => {
 
   const handlePriceChange = (event: Event, newValue: number | number[]) => {
     setPrice(newValue as number[]);
-    console.log(event);
   };
 
   // get category search value from url (?category=Countryside)
@@ -91,17 +89,18 @@ const FilterForm = () => {
     setModalOpen(false);
   };
 
-  if (isPending) return <span>...</span>;
+  // if (isPending) return <span></span>;
 
-  if (error) return "An error has occurred: " + error.message;
+  // if (error) return "An error has occurred: " + error.message;
 
   return (
     <div className='h-full flex items-center justify-center'>
       <button
-        className='flex items-center gap-2 px-4 py-3 text-gray-900 border border-gray-300 rounded-2xl'
+        className='flex items-center justify-center gap-1 md:gap-2 px-2 lg:px-4 py-3 text-gray-900 border border-gray-300 rounded-2xl'
         onClick={() => setModalOpen(true)}
       >
-        <HiOutlineAdjustmentsHorizontal /> <span>Filters</span>
+        <HiOutlineAdjustmentsHorizontal className='text-xs md:text-base' />{" "}
+        <span className='text-xs md:text-base'>Filters</span>
       </button>
 
       <FilterModal isOpen={isModalOpen} onClose={() => setModalOpen(false)}>

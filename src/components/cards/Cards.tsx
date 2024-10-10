@@ -16,6 +16,7 @@ const Cards = () => {
   const location = useLocation();
   const [searchQuery, setSearchQuery] = useState<string | null>();
   const dispatch = useDispatch();
+
   const filterResult = useSelector(
     (state: any) => state.filterResult.filterResults
   );
@@ -23,6 +24,9 @@ const Cards = () => {
   const searchResult = useSelector(
     (state: any) => state.searchResult.searchResults
   );
+
+  // TODO: how many data is on
+  console.log({ filterResult, searchResult });
 
   const { isPending, error, data, refetch } = useQuery({
     queryKey: ["getCategories"],
@@ -50,13 +54,9 @@ const Cards = () => {
 
   if (error) return "An error has occurred: " + error.message;
 
-  console.log({ filterResult });
-  console.log({ searchResult });
-  console.log({ data });
-
   return (
     <Container>
-      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6'>
+      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-center gap-6'>
         {filterResult && filterResult.length > 0
           ? filterResult.map((category: any) => (
               <Card key={category?._id} category={category} />
@@ -69,22 +69,6 @@ const Cards = () => {
               <Card key={category?._id} category={category} />
             ))}
       </div>
-      {/* <div className='grid grid-cols-4 gap-6'>
-        {filterResult && filterResult.length > 0
-          ? filterResult.map((category: any) => (
-              <Card key={category?._id} category={category} />
-            ))
-          : data?.map((category: any) => (
-              <Card key={category?._id} category={category} />
-            ))}
-        {searchResult && searchResult.length > 0
-          ? searchResult.map((category: any) => (
-              <Card key={category?._id} category={category} />
-            ))
-          : data?.map((category: any) => (
-              <Card key={category?._id} category={category} />
-            ))}
-      </div> */}
     </Container>
   );
 };

@@ -82,7 +82,7 @@ const Categories = () => {
 
   return (
     <Container>
-      <div className='flex items-center gap-5'>
+      <div className='flex flex-col lg:flex-row items-center gap-5'>
         <div
           className={`relative ${
             serachQuery && "lg:w-[calc(100%-400px)]"
@@ -133,10 +133,10 @@ const Categories = () => {
         </div>
 
         {serachQuery && (
-          <div className='w-[375px] flex items-center gap-3'>
+          <div className='w-[375px] mx-auto mb-4 lg:mb-0 md:mx-0 flex items-center gap-3'>
             <FilterForm />
 
-            <div className='w-max flex items-center gap-2.5 pl-4 py-3 text-gray-900 border border-gray-300 rounded-xl'>
+            <div className='w-max text-xs md:text-base flex items-center gap-2.5 pl-4 py-2 md:py-3 text-gray-900 border border-gray-300 rounded-xl'>
               <p>Display total before taxes</p>
               <SwitchBtn />
             </div>

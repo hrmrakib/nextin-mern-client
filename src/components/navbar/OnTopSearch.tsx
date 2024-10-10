@@ -95,6 +95,9 @@ const OnTopSearch = () => {
     navigate(`?${query}`);
   };
 
+  // TODO: search data
+  console.log("onTOPSearch", data);
+
   return (
     <div className='flex flex-col duration-700 ease-in-out transform transition-opacity z-30'>
       {/* Search type toggler */}
@@ -106,13 +109,13 @@ const OnTopSearch = () => {
       </div>
 
       {/* Search fields */}
-      <div className='mt-10 border w-full md:w-auto rounded-full shadow-lg transition'>
-        <div className='flex items-center justify-between'>
+      <div className='mt-10 lg:border w-full md:w-auto rounded-full lg:shadow-lg transition'>
+        <div className='flex flex-col lg:flex-row lg:items-center justify-between gap-2 lg:gap-0'>
           {/* Region input */}
           <div
             onClick={() => toggleModal("region")}
             ref={regionRef}
-            className='relative text-sm font-semibold py-2 pl-8 pr-24 border-r hover:bg-neutral-100 hover:rounded-3xl focus:bg-white transition cursor-pointer'
+            className='relative text-sm font-semibold py-2 pl-3 lg:pl-8 lg:pr-24 lg:border-r border lg:border-0 rounded-3xl lg:rounded-none hover:bg-neutral-100 hover:rounded-3xl focus:bg-white transition cursor-pointer'
           >
             <h3>Where</h3>
             <input
@@ -125,7 +128,7 @@ const OnTopSearch = () => {
           </div>
 
           {/* Check-in input */}
-          <div className='relative text-sm font-semibold py-2 pl-6 pr-16 border-r hover:bg-neutral-100 hover:rounded-3xl cursor-pointer'>
+          <div className='relative text-sm font-semibold py-2 pl-3 lg:pl-6 lg:pr-16 lg:border-r border lg:border-0 rounded-3xl lg:rounded-none hover:bg-neutral-100 hover:rounded-3xl cursor-pointer'>
             <div
               onClick={() => toggleModal("dateRangeIn")}
               className='flex flex-col'
@@ -139,7 +142,7 @@ const OnTopSearch = () => {
           </div>
 
           {/* Check-out input */}
-          <div className='relative text-sm font-semibold py-2 pl-6 pr-16 border-r hover:bg-neutral-100 hover:rounded-3xl cursor-pointer'>
+          <div className='relative text-sm font-semibold py-2 pl-3 lg:pl-6 lg:pr-16 lg:border-r border lg:border-0 rounded-3xl lg:rounded-none hover:bg-neutral-100 hover:rounded-3xl cursor-pointer'>
             <div
               onClick={() => toggleModal("dateRangeOut")}
               className='flex flex-col'
