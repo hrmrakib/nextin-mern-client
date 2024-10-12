@@ -7,7 +7,7 @@ const UserMenu = () => {
     <div className='relative py-3'>
       <div className='flex flex-row items-center gap-0.5'>
         <div className='hidden md:block text-sm font-semibold px-4 py-3 rounded-full hover:bg-neutral-100 transition cursor-pointer'>
-          Airbnb home
+          NextIn home
         </div>
 
         <div className='hidden md:block text-base font-semibold px-3 py-3 rounded-full hover:bg-neutral-100 transition cursor-pointer'>
