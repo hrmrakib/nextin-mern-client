@@ -14,7 +14,7 @@ import { clearSearchResults } from "../../features/searchResult/searchResultSlic
 
 const Cards = () => {
   const location = useLocation();
-  const [searchQuery, setSearchQuery] = useState<string | null>();
+  const [searchQuery, setSearchQuery] = useState<string | null | any>();
   const dispatch = useDispatch();
 
   const filterResult = useSelector(

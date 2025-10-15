@@ -8,7 +8,7 @@ import { FaRegHeart } from "react-icons/fa";
 
 const ImageSlider = ({ category }: any) => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [touchStartX, setTouchStartX] = useState(null);
+  const [touchStartX, setTouchStartX] = useState<any>();
   const sliderRef = useRef<HTMLDivElement>(null);
   const filterResult = useSelector(
     (state: any) => state.filterResult.filterResults
