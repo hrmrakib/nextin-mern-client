@@ -54,17 +54,17 @@ const ImageSlider = ({ category }: any) => {
   return (
     <div
       ref={sliderRef}
-      className='relative group w-full lg:max-w-lg mx-auto overflow-hidden rounded-lg transition duration-75 cursor-pointer'
+      className='relative group w-full container mx-auto overflow-hidden rounded-lg transition duration-75 cursor-pointer'
       onTouchStart={handleTouchStart}
       onTouchMove={handleTouchMove}
     >
       {/* Image Display */}
-      <div>
+      <div className='relative'>
         <div className='relative w-full min-h-72'>
           <img
             src={category?.images[currentIndex]}
             alt={`Slide ${category?.name}`}
-            className={`absolute inset-0 lg:w-[320px] h-[300px] rounded-2xl object-cover transition-opacity duration-500 ease-in-out`}
+            className={`absolute inset-0 lgw-[320px] lg:w-full h-[300px] rounded-2xl object-cover transition-opacity duration-500 ease-in-out`}
           />
 
           {/* Left Arrow */}
@@ -77,7 +77,7 @@ const ImageSlider = ({ category }: any) => {
 
           {/* Right Arrow */}
           <button
-            className='absolute right-4 top-1/2 transform -translate-y-1/2 px-1.5 py-1.5 bg-gray-200 opacity-0 group-hover:opacity-100 hover:bg-white hover:shadow-md text-gray-800 hover:scale-105 transition duration-200 rounded-full'
+            className='absolute right-2 top-1/2 transform -translate-y-1/2 px-1.5 py-1.5 bg-gray-200 opacity-0 group-hover:opacity-100 hover:bg-white hover:shadow-md text-gray-800 hover:scale-105 transition duration-200 rounded-full'
             onClick={nextImage}
           >
             <IoIosArrowForward className='text-lg' />
